@@ -1,2 +1,3 @@
 # Proyecto_CS
-Proyecto curso Construcción de Software
+Proyecto integral del curso Construcción de Software - Universidad Continental
+2025
