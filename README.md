@@ -1,7 +1,6 @@
 # CONSTRUCCIÓN DE SOFTWARE - GRUPO I  
-**Proyecto integral del curso Construcción de Software - Universidad Continental**  
-2025  
-
+**Proyecto integral del curso Construcción de Software - Universidad Continental 2025-1**  
+ 
 🔗 [Enlace de nuestra página](https://mvillegasuc.github.io/Proyecto_CS/)  
 
 ## 📚 CURSO: CONSTRUCCIÓN DE SOFTWARE  
