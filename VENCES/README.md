@@ -18,10 +18,10 @@ Algunas de las regiones con formas únicas incluyen:
 
 ## 🔹 Contenido del portafolio  
 📖 En este proyecto, encontrarás análisis sobre las siguientes regiones:  
-- [Formas de Alola](alola.html)  
-- [Formas de Galar](galar.html)  
-- [Formas de Hisui](hisui.html)  
-- [Formas de Paldea](paldea.html)  
+- [Formas de Alola](alola.md)  
+- [Formas de Galar](galar.md)  
+- [Formas de Hisui](hisui.md)  
+- [Formas de Paldea](paldea.md)  
 
 
 ## 🔹 Contacto  
