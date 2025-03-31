@@ -23,9 +23,6 @@ Algunas de las regiones con formas únicas incluyen:
 - [Formas de Hisui](hisui.html)  
 - [Formas de Paldea](paldea.html)  
 
-## 🔹 Accede al portafolio  
-Puedes ver el portafolio en línea aquí:  
-➡ **[Mi portafolio Pokémon](https://usuario.github.io/Proyecto_CS/TuCarpeta/)**  
 
 ## 🔹 Contacto  
 📧 Email: [72858295@continental.edu,pe](mailto:72858295@continental.edu,pe)  
