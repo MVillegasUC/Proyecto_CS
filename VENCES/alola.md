@@ -1,5 +1,5 @@
 
-![Image](https://github.com/user-attachments/assets/346ae276-e88e-41b3-9a0a-ab2520f87266)
+![Image](https://github.com/user-attachments/assets/a89b92d5-c735-4596-bb60-14ca19449e31)
 
 # ☀️ Formas Regionales de Alola  
 
