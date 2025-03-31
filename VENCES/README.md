@@ -3,8 +3,13 @@
 
 Bienvenido a mi portafolio sobre **Formas Regionales de Pokémon**. En este proyecto, exploramos cómo los Pokémon cambian su apariencia, tipo y habilidades al adaptarse a diferentes regiones.  
 
+
 ## 🔹 ¿Qué son las formas regionales?  
-Las formas regionales son variantes de Pokémon que han evolucionado de manera diferente según su entorno. Algunas de las regiones con formas únicas incluyen:  
+Las formas regionales son variantes de Pokémon que han evolucionado de manera diferente según su entorno.
+
+![Image](https://github.com/user-attachments/assets/2d1ea336-8fe9-42eb-b7a6-efcf965bb04b)
+
+Algunas de las regiones con formas únicas incluyen:  
 
 - **Alola** ☀️ - Adaptados a climas tropicales.  
 - **Galar** 🏰 - Influenciados por la cultura y la historia de la región.  
