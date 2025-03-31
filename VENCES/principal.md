@@ -16,19 +16,9 @@ Algunas de las regiones con formas únicas incluyen:
 - **Hisui 🏛️** - Versiones ancestrales de algunos Pokémon.
 - **Paldea 🔥** - Evoluciones influenciadas por el ecosistema local.
 
-## 🔹 Contenido del portafolio
-📖 En este proyecto, encontrarás análisis sobre las siguientes regiones:
-
-- [Formas de Alola](alola.md)
-- [Formas de Galar](galar.md)
-- [Formas de Hisui](hisui.md)
-- [Formas de Paldea](paldea.md)
-
 ## 🔹 Contacto
 📧 Email: 72858295@continental.edu.pe  
 🐙 GitHub: [github.com/AlonsoVencesBossio](https://github.com/AlonsoVencesBossio)
-
-[🔙 Volver a la página principal](index.html)
 
 
 ## 🔹 Contacto  
@@ -37,3 +27,4 @@ Algunas de las regiones con formas únicas incluyen:
 
 ---
 
+[🔙 Volver a la página principal](index.html)
