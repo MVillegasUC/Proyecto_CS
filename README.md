@@ -2,8 +2,7 @@
 Proyecto integral del curso Construcción de Software - Universidad Continental
 2025
 
-Enlace: 
-https://mvillegasuc.github.io/Proyecto_CS/
+<a href="https://mvillegasuc.github.io/Proyecto_CS/">Enlace de nuestra página</a>
 
 <h5>CURSO: CONSTRUCCIÓN DE SOFTWARE</h5>
 <h5>PROFESOR: MEHREZ GARCIA Amir Fernando Mamdouh</h5>
