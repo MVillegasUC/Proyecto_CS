@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/11a2f303-0a14-42ce-993c-98da169301d5)
+![Image](https://github.com/user-attachments/assets/90a6bf1e-c12f-4725-be02-8f9887bde60d)
 
 # 🌍 Formas Regionales de Pokémon
 
@@ -7,7 +7,7 @@ Bienvenido a mi portafolio sobre Formas Regionales de Pokémon. En este proyecto
 ## 🔹 ¿Qué son las formas regionales?
 Las formas regionales son variantes de Pokémon que han evolucionado de manera diferente según su entorno. 
 
-![Image](https://github.com/user-attachments/assets/2d1ea336-8fe9-42eb-b7a6-efcf965bb04b)
+![Image](https://github.com/user-attachments/assets/16a9337d-f438-445e-98a7-b41f7338d413)
 
 Algunas de las regiones con formas únicas incluyen:
 
