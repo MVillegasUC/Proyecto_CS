@@ -1,16 +1,44 @@
-<p style="color:purple; font-size:30px"h1>Esta es una etiqueta H1. Utilízala en el título.</h1></p>
-<h2>Esta es una etiqueta H2. Utilízala en los encabezados de secciones.</h2>
-<h3>Esta es una etiqueta H3. Utilízala en sub-secciones.</h3>
-<h4>Esta es una etiqueta H4. No se usan muy a menudo.</h4>
-<h5>Estudiantes apellidos y nombres:</h5>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Regionales de Pokémon</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS opcional -->
+</head>
+<body>
+    <header>
+        <h1>Formas Regionales de Pokémon</h1>
+        <p>Explorando cómo los Pokémon se adaptan a diferentes entornos y cambian de forma.</p>
+    </header>
 
-<ul>
-   <li>Elemento 1</li>
-   <li>Elemento 2</li>
-   <li>Elemento 3</li>
-   <li>Elemento 4</li>
-</ul>
+    <section>
+        <h2>🔹 ¿Qué son las formas regionales?</h2>
+        <p>Las formas regionales son variantes de Pokémon que han evolucionado de manera diferente en distintas regiones debido a su entorno.</p>
+    </section>
 
-<a href="https://mvillegasuc.github.io/Proyecto_CS/">Visita el blog de GoDaddy</a>
+    <section>
+        <h2>🌍 Ejemplos de Formas Regionales</h2>
+        <ul>
+            <li><strong>Alola:</strong> Pokémon adaptados a climas tropicales.</li>
+            <li><strong>Galar:</strong> Influenciados por la historia y cultura de la región.</li>
+            <li><strong>Hisui:</strong> Antiguas formas de Pokémon que existían en el pasado.</li>
+            <li><strong>Paldea:</strong> Pokémon adaptados a ecosistemas únicos.</li>
+        </ul>
+    </section>
 
-![Image](https://github.com/user-attachments/assets/3118539d-db34-494d-aea7-214e3791f843)
+    <section>
+        <h2>📖 Artículos y Análisis</h2>
+        <ul>
+            <li><a href="alola.html">Formas de Alola</a></li>
+            <li><a href="galar.html">Formas de Galar</a></li>
+            <li><a href="hisui.html">Formas de Hisui</a></li>
+            <li><a href="paldea.html">Formas de Paldea</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [Tu Nombre] - Proyecto Pokémon</p>
+    </footer>
+</body>
+</html>
