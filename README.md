@@ -1,4 +1,4 @@
-# Proyecto_CS
+# Proyecto CONSTRUCCIÓN DE SOFTWARE - GRUPO I
 Proyecto integral del curso Construcción de Software - Universidad Continental
 2025
 
