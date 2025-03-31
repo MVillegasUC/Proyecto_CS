@@ -28,12 +28,8 @@ Puedes ver el portafolio en línea aquí:
 ➡ **[Mi portafolio Pokémon](https://usuario.github.io/Proyecto_CS/TuCarpeta/)**  
 
 ## 🔹 Contacto  
-📧 Email: [tucorreo@example.com](mailto:tucorreo@example.com)  
-🐙 GitHub: [github.com/tuusuario](https://github.com/tuusuario)  
+📧 Email: [72858295@continental.edu,pe](mailto:72858295@continental.edu,pe)  
+🐙 GitHub: [github.com/AlonsoVencesBossio](https://github.com/AlonsoVencesBossio)  
 
 ---
-
-Este `README.md` dará contexto a tu portafolio en GitHub y facilitará el acceso a la información.  
-
-📌 **¿Quieres agregar más secciones o personalizarlo?** 😊
 
