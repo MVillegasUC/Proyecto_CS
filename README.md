@@ -12,3 +12,5 @@
 - **QUINTO TAIPE** Berta  
 - **VENCES BOSSIO** José Alonso  
 - **VILLEGAS ARCENTALES** Merrie Laura  
+
+![Image](https://github.com/user-attachments/assets/761b31f3-53d2-4a96-9f10-4bec5965fca4)
