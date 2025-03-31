@@ -14,6 +14,9 @@ Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la reg
 
 ## 🏝️ Ejemplos de Formas de Alola  
 ### 🦊 **Vulpix de Alola**  
+
+![Image](https://github.com/user-attachments/assets/b7cfcdd8-8ec1-47f5-b6a6-4da80a46bc1c)
+
 - **Tipo:** Hielo  
 - **Habilidad:** Manto Níveo  
 - **Diferencia:** Cambia su tipo de Fuego a Hielo debido a la vida en montañas nevadas de Alola.  
