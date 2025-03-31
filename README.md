@@ -14,3 +14,5 @@
   <li><a href="VENCES/">VENCES BOSSIO José Alonso</a></li>
   <li><a href="VILLEGAS/">VILLEGAS ARCENTALES Merrie Laura</a></li>
 </ul>
+
+![Image](https://github.com/user-attachments/assets/761b31f3-53d2-4a96-9f10-4bec5965fca4)
