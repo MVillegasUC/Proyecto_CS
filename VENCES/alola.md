@@ -13,7 +13,7 @@ Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la reg
 - Sus habilidades y estadísticas se ajustan a su nuevo entorno.  
 
 ## 🏝️ Ejemplos de Formas de Alola  
-### 🦊 **Vulpix de Alola**  
+### 🦊 **Vulpix y Ninetales de Alola**  
 
 ![Image](https://github.com/user-attachments/assets/b7cfcdd8-8ec1-47f5-b6a6-4da80a46bc1c)
 
