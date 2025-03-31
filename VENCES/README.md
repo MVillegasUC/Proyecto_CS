@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/17f90c8c-fdba-4ba5-b57b-41872ea6d819)
+![Image](https://github.com/user-attachments/assets/d300122e-1a41-4efd-81d1-8a85fed87700)
 # 🌍 Formas Regionales de Pokémon  
 
 Bienvenido a mi portafolio sobre **Formas Regionales de Pokémon**. En este proyecto, exploramos cómo los Pokémon cambian su apariencia, tipo y habilidades al adaptarse a diferentes regiones.  
