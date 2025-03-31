@@ -12,3 +12,5 @@
 </ul>
 
 <a href="https://mvillegasuc.github.io/Proyecto_CS/">Visita el blog de GoDaddy</a>
+
+![Image](https://github.com/user-attachments/assets/3118539d-db34-494d-aea7-214e3791f843)
