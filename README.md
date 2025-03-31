@@ -1,4 +1,4 @@
-#CONSTRUCCIÓN DE SOFTWARE - GRUPO I
+# CONSTRUCCIÓN DE SOFTWARE - GRUPO I
 Proyecto integral del curso Construcción de Software - Universidad Continental
 2025
 
