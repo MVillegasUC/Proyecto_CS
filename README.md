@@ -10,7 +10,7 @@
 - **ALDANA VILCA** Luis Felipe  
 - **BAEZ QUISPE** Americo  
 - **QUINTO TAIPE** Berta  
-- **[VENCES BOSSIO José Alonso](https://mvillegasuc.github.io/Proyecto_CS/VENCES/)  
+- [VENCES BOSSIO José Alonso](https://mvillegasuc.github.io/Proyecto_CS/VENCES/)  
 - **VILLEGAS ARCENTALES** Merrie Laura  
 
 ![Image](https://github.com/user-attachments/assets/761b31f3-53d2-4a96-9f10-4bec5965fca4)
