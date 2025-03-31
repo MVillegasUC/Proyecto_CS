@@ -64,7 +64,7 @@ Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la reg
 
 ### 🪨⚡ Geodude, Graveler y Golem de Alola
 
-
+![Image](https://github.com/user-attachments/assets/f5f82615-af10-458c-b7a4-755c5fae189f)
 
 - **Tipo:** Roca / Eléctrico  
 - **Diferencia:** Desarrollaron partículas magnéticas que atraen metales y permiten lanzar rocas eléctricas.  
@@ -72,7 +72,7 @@ Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la reg
 
 ### 🏜️⚙️ Diglett y Dugtrio de Alola  
 
-
+![Image](https://github.com/user-attachments/assets/293c7c81-0546-4849-b716-9f3cbfbc7258)
 
 - **Tipo:** Tierra / Acero  
 - **Diferencia:** Sus cabellos metálicos les permiten detectar vibraciones y se consideran sagrados en Alola.  
@@ -80,7 +80,7 @@ Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la reg
 
 ### 💀🔥 Marowak de Alola  
 
-
+![Image](https://github.com/user-attachments/assets/9a7a27e8-2602-485e-ab34-7a161c313af3)
 
 - **Tipo:** Fuego / Fantasma  
 - **Diferencia:** Tras la muerte de su madre, Marowak de Alola adoptó una nueva forma con huesos ardiendo, lo que le da una apariencia fantasmal.  
@@ -88,7 +88,7 @@ Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la reg
 
 ### ⚡ **Raichu de Alola**  
 
-
+![Image](https://github.com/user-attachments/assets/bcf38998-b41a-4905-90c3-9faf369c5129)
 
 - **Tipo:** Eléctrico / Psíquico  
 - **Habilidad:** Cola Surf  
