@@ -22,6 +22,9 @@ Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la reg
 - **Diferencia:** Cambia su tipo de Fuego a Hielo debido a la vida en montañas nevadas de Alola.  
 
 ### 🦎 **Exeggutor de Alola**  
+
+![Image](https://github.com/user-attachments/assets/31c3fb04-45cf-40a1-91f6-725a8a95d35b)
+
 - **Tipo:** Planta / Dragón  
 - **Habilidad:** Cosecha  
 - **Diferencia:** Su cuello es mucho más largo y se dice que es su forma real, logrando una conexión más fuerte con el sol.  
