@@ -1,30 +1,34 @@
+# ☀️ Formas Regionales de Alola  
 
-Bienvenido a mi portafolio sobre **Formas Regionales de Pokémon**. En este proyecto, exploramos cómo los Pokémon cambian su apariencia, tipo y habilidades al adaptarse a diferentes regiones.  
+## 🌴 ¿Qué son las Formas de Alola?  
+Las **Formas de Alola** son variantes de Pokémon que han evolucionado en la región tropical de **Alola**, adaptándose a su clima cálido y su ecosistema insular. Estas formas introdujeron cambios en **tipos, habilidades y apariencia** en comparación con sus contrapartes de otras regiones.  
 
+## 🔥 Características de las Formas de Alola  
+- Adaptaciones a **climas cálidos y entornos volcánicos**.  
+- Nuevos **tipos y combinaciones únicas**.  
+- Algunas formas tienen **inspiración en la mitología hawaiana**.  
+- Sus habilidades y estadísticas se ajustan a su nuevo entorno.  
 
-## 🔹 ¿Qué son las formas regionales?  
-Las formas regionales son variantes de Pokémon que han evolucionado de manera diferente según su entorno.
+## 🏝️ Ejemplos de Formas de Alola  
+### 🦊 **Vulpix de Alola**  
+- **Tipo:** Hielo  
+- **Habilidad:** Manto Níveo  
+- **Diferencia:** Cambia su tipo de Fuego a Hielo debido a la vida en montañas nevadas de Alola.  
 
-![Image](https://github.com/user-attachments/assets/2d1ea336-8fe9-42eb-b7a6-efcf965bb04b)
+### 🦎 **Exeggutor de Alola**  
+- **Tipo:** Planta / Dragón  
+- **Habilidad:** Cosecha  
+- **Diferencia:** Su cuello es mucho más largo y se dice que es su forma real, logrando una conexión más fuerte con el sol.  
 
-Algunas de las regiones con formas únicas incluyen:  
+### ⚡ **Raichu de Alola**  
+- **Tipo:** Eléctrico / Psíquico  
+- **Habilidad:** Cola Surf  
+- **Diferencia:** Desarrolló habilidades psíquicas y surfea en su cola electrificada.  
 
-- **Alola** ☀️ - Adaptados a climas tropicales.  
-- **Galar** 🏰 - Influenciados por la cultura y la historia de la región.  
-- **Hisui** 🏛️ - Versiones ancestrales de algunos Pokémon.  
-- **Paldea** 🔥 - Evoluciones influenciadas por el ecosistema local.  
+## 🌊 Impacto de las Formas de Alola  
+Las Formas Regionales de Alola fueron la primera gran variación en la apariencia y tipo de los Pokémon en la saga principal, influenciando regiones posteriores como Galar, Hisui y Paldea.  
 
-## 🔹 Contenido del portafolio  
-📖 En este proyecto, encontrarás análisis sobre las siguientes regiones:   
-- [Formas de Alola](alola.html)  
-- [Formas de Galar](galar.html)  
-- [Formas de Hisui](hisui.html)  
-- [Formas de Paldea](paldea.html)  
+📌 *¿Cuál es tu Forma de Alola favorita?* 🤔  
 
+🔙 [Volver al inicio](https://mvillegasuc.github.io/Proyecto_CS/VENCES/)  
 
-
-## 🔹 Contacto  
-📧 Email: [72858295@continental.edu,pe](mailto:72858295@continental.edu,pe)  
-🐙 GitHub: [github.com/AlonsoVencesBossio](https://github.com/AlonsoVencesBossio)  
-
----
