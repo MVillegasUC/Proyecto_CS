@@ -4,3 +4,13 @@ Proyecto integral del curso Construcción de Software - Universidad Continental
 
 Enlace: 
 https://mvillegasuc.github.io/Proyecto_CS/
+
+<h5>Estudiantes apellidos y nombres:</h5>
+
+<ul>
+   <li>ALDANA VILCA Luis Felipe</li>
+   <li>BAEZ QUISPE Americo</li>
+   <li>QUINTO TAIPE Berta</li>
+   <li>VENCES BOSSIO José Alonso</li>
+   <li>VILLEGAS ARCENTALES Merrie Laura</li>
+</ul>
