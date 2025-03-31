@@ -1,44 +1,33 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formas Regionales de Pokémon</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS opcional -->
-</head>
-<body>
-    <header>
-        <h1>Formas Regionales de Pokémon</h1>
-        <p>Explorando cómo los Pokémon se adaptan a diferentes entornos y cambian de forma.</p>
-    </header>
+# 🌍 Formas Regionales de Pokémon  
 
-    <section>
-        <h2>🔹 ¿Qué son las formas regionales?</h2>
-        <p>Las formas regionales son variantes de Pokémon que han evolucionado de manera diferente en distintas regiones debido a su entorno.</p>
-    </section>
+Bienvenido a mi portafolio sobre **Formas Regionales de Pokémon**. En este proyecto, exploramos cómo los Pokémon cambian su apariencia, tipo y habilidades al adaptarse a diferentes regiones.  
 
-    <section>
-        <h2>🌍 Ejemplos de Formas Regionales</h2>
-        <ul>
-            <li><strong>Alola:</strong> Pokémon adaptados a climas tropicales.</li>
-            <li><strong>Galar:</strong> Influenciados por la historia y cultura de la región.</li>
-            <li><strong>Hisui:</strong> Antiguas formas de Pokémon que existían en el pasado.</li>
-            <li><strong>Paldea:</strong> Pokémon adaptados a ecosistemas únicos.</li>
-        </ul>
-    </section>
+## 🔹 ¿Qué son las formas regionales?  
+Las formas regionales son variantes de Pokémon que han evolucionado de manera diferente según su entorno. Algunas de las regiones con formas únicas incluyen:  
 
-    <section>
-        <h2>📖 Artículos y Análisis</h2>
-        <ul>
-            <li><a href="alola.html">Formas de Alola</a></li>
-            <li><a href="galar.html">Formas de Galar</a></li>
-            <li><a href="hisui.html">Formas de Hisui</a></li>
-            <li><a href="paldea.html">Formas de Paldea</a></li>
-        </ul>
-    </section>
+- **Alola** ☀️ - Adaptados a climas tropicales.  
+- **Galar** 🏰 - Influenciados por la cultura y la historia de la región.  
+- **Hisui** 🏛️ - Versiones ancestrales de algunos Pokémon.  
+- **Paldea** 🔥 - Evoluciones influenciadas por el ecosistema local.  
 
-    <footer>
-        <p>&copy; 2025 [Tu Nombre] - Proyecto Pokémon</p>
-    </footer>
-</body>
-</html>
+## 🔹 Contenido del portafolio  
+📖 En este proyecto, encontrarás análisis sobre las siguientes regiones:  
+- [Formas de Alola](alola.html)  
+- [Formas de Galar](galar.html)  
+- [Formas de Hisui](hisui.html)  
+- [Formas de Paldea](paldea.html)  
+
+## 🔹 Accede al portafolio  
+Puedes ver el portafolio en línea aquí:  
+➡ **[Mi portafolio Pokémon](https://usuario.github.io/Proyecto_CS/TuCarpeta/)**  
+
+## 🔹 Contacto  
+📧 Email: [tucorreo@example.com](mailto:tucorreo@example.com)  
+🐙 GitHub: [github.com/tuusuario](https://github.com/tuusuario)  
+
+---
+
+Este `README.md` dará contexto a tu portafolio en GitHub y facilitará el acceso a la información.  
+
+📌 **¿Quieres agregar más secciones o personalizarlo?** 😊
+
