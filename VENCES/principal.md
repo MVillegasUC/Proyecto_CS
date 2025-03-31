@@ -16,10 +16,6 @@ Algunas de las regiones con formas únicas incluyen:
 - **Hisui 🏛️** - Versiones ancestrales de algunos Pokémon.
 - **Paldea 🔥** - Evoluciones influenciadas por el ecosistema local.
 
-## 🔹 Contacto
-📧 Email: 72858295@continental.edu.pe  
-🐙 GitHub: [github.com/AlonsoVencesBossio](https://github.com/AlonsoVencesBossio)
-
 
 ## 🔹 Contacto  
 📧 Email: [72858295@continental.edu,pe](mailto:72858295@continental.edu,pe)  
