@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/d300122e-1a41-4efd-81d1-8a85fed87700)
+![Image](https://github.com/user-attachments/assets/11a2f303-0a14-42ce-993c-98da169301d5)
 
 # 🌍 Formas Regionales de Pokémon
 
