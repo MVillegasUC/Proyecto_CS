@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.0/showdown.min.js"></script>
+</head>
+<body>
+    <h1>Formas Regionales de Pokémon</h1>
+    <ul>
+        <li><a href="#" onclick="loadMarkdown('alola.md')">Formas de Alola</a></li>
+        <li><a href="#" onclick="loadMarkdown('galar.md')">Formas de Galar</a></li>
+        <li><a href="#" onclick="loadMarkdown('hisui.md')">Formas de Hisui</a></li>
+        <li><a href="#" onclick="loadMarkdown('paldea.md')">Formas de Paldea</a></li>
+    </ul>
+    <div id="content"></div>
+
+    <script>
+        function loadMarkdown(file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(text => {
+                    let converter = new showdown.Converter();
+                    document.getElementById("content").innerHTML = converter.makeHtml(text);
+                });
+        }
+    </script>
+</body>
+</html>
