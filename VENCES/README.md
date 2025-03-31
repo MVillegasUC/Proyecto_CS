@@ -30,4 +30,3 @@ Algunas de las regiones con formas únicas incluyen:
 
 ---
 
-🔙 [Volver al inicio](https://mvillegasuc.github.io/Proyecto_CS/) 
