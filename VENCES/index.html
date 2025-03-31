@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta http-equiv="refresh" content="0; url=README.md">
-    <title>Redirigiendo...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Regionales de Pokémon</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 </head>
 <body>
-    <p>Si no eres redirigido automáticamente, <a href="README.md">haz clic aquí</a>.</p>
+    <h1>Formas Regionales de Pokémon</h1>
+    <p>Bienvenido al portafolio de VENCES sobre Formas Regionales de Pokémon.</p>
+
+    <h2>📖 Contenido</h2>
+    <ul>
+        <li><a href="#" onclick="loadMarkdown('principal.md')">🌍 Página Principal</a></li>
+        <li><a href="#" onclick="loadMarkdown('alola.md')">☀️ Formas de Alola</a></li>
+        <li><a href="#" onclick="loadMarkdown('galar.md')">🏰 Formas de Galar</a></li>
+        <li><a href="#" onclick="loadMarkdown('hisui.md')">🏛️ Formas de Hisui</a></li>
+        <li><a href="#" onclick="loadMarkdown('paldea.md')">🔥 Formas de Paldea</a></li>
+    </ul>
+
+    <div id="content">Selecciona una sección para visualizar su contenido.</div>
+
+    <script>
+        function loadMarkdown(file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(text => {
+                    let converter = new showdown.Converter();
+                    document.getElementById("content").innerHTML = converter.makeHtml(text);
+                })
+                .catch(error => console.error('Error cargando el archivo:', error));
+        }
+    </script>
 </body>
 </html>
-
