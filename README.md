@@ -1,18 +1,15 @@
-# CONSTRUCCIÓN DE SOFTWARE - GRUPO I
-Proyecto integral del curso Construcción de Software - Universidad Continental
-2025
+# CONSTRUCCIÓN DE SOFTWARE - GRUPO I  
+**Proyecto integral del curso Construcción de Software - Universidad Continental**  
+2025  
 
-<a href="https://mvillegasuc.github.io/Proyecto_CS/">Enlace de nuestra página</a>
+🔗 [Enlace de nuestra página](https://mvillegasuc.github.io/Proyecto_CS/)  
 
-<h5>CURSO: CONSTRUCCIÓN DE SOFTWARE</h5>
-<h5>PROFESOR: MEHREZ GARCIA Amir Fernando Mamdouh</h5>
+## 📚 CURSO: CONSTRUCCIÓN DE SOFTWARE  
+**Profesor:** MEHREZ GARCIA Amir Fernando Mamdouh  
 
-<h5>Estudiantes apellidos y nombres:</h5>
-
-<ul>
-   <li>ALDANA VILCA Luis Felipe</li>
-   <li>BAEZ QUISPE Americo</li>
-   <li>QUINTO TAIPE Berta</li>
-   <li>VENCES BOSSIO José Alonso</li>
-   <li>VILLEGAS ARCENTALES Merrie Laura</li>
-</ul>
+## 👨‍🎓 Estudiantes:  
+- **ALDANA VILCA** Luis Felipe  
+- **BAEZ QUISPE** Americo  
+- **QUINTO TAIPE** Berta  
+- **VENCES BOSSIO** José Alonso  
+- **VILLEGAS ARCENTALES** Merrie Laura  
