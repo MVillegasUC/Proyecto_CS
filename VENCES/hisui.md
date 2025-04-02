@@ -5,6 +5,12 @@ Las formas de Hisui representan adaptaciones ancestrales de Pokémon a las duras
 
 ---
 
+## 🏔️ ¿Qué son las Formas de Hisui?  
+Las **Formas de Hisui** son versiones alternativas de Pokémon que vienen del pasado, la mayoria se vio obligada a adaptar estas formas
+por las peligrosas condiciones climáticas y el salvajismo de los Pokémon salvajes.
+
+## 🏴‍☠️ Ejemplos de Formas de Galar
+
 ## 🐶 Growlithe y Arcanine (Hisui)  
 
 Growlithe de Hisui ha desarrollado un pelaje grueso para resistir el frío y un cuerno de piedra en su cabeza que usa para atacar. Su evolución, Arcanine de Hisui, combina la fiereza con una apariencia imponente de guerrero.  
