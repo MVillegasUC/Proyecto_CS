@@ -1,8 +1,14 @@
+
 # 🌄 Formas Regionales de Paldea  
 
 Las formas de Paldea representan adaptaciones de Pokémon a su entorno diverso, influenciado por su clima, cultura y ecosistema. Estas formas han desarrollado nuevas habilidades y tipos que reflejan la singularidad de la región.  
 
 ---
+
+## 🏔️ ¿Qué son las Formas de Paldea?  
+Las **Formas de Paldea** son Pokémon que se adaptaron al entorno y costumbres de la región.
+
+## 🏴‍☠️ Ejemplos de Formas de Paldea
 
 ## 🐂 Tauros (Paldea) y sus tres variedades
 
