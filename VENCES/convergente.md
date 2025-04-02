@@ -1,10 +1,13 @@
 # 🔄 Formas Convergentes en Pokémon  
 
+## 🔄 ¿Qué son las Formas Convergentes?  
+
 Las **formas convergentes** son especies de Pokémon que se asemejan a otras existentes, pero no están relacionadas evolutivamente. Su parecido es resultado de la evolución convergente, donde diferentes especies desarrollan características similares debido a su entorno.  
 
 En Paldea y Noroteo, se han descubierto varios Pokémon con este tipo de evolución.  
 
 ---
+## 🔄 Ejemplos de Formas Convergentes
 
 ## 🍄 Toedscool y Toedscruel  
 
