@@ -1,7 +1,5 @@
 # 🤝 Referencias:
 
-![Image](https://github.com/user-attachments/assets/aed48701-60b8-4d93-bbb7-509d505445ec)
-
 En esta sección se encuentran las páginas que ayudaron para crear la información de este repositorio, en ellas tambien se encuentra información adicional a la brindada anteriormente.
 
 ---
