@@ -178,4 +178,4 @@ Las aves legendarias de Kanto tienen formas regionales completamente nuevas en G
   - **Tipo:** 🦊 Siniestro / Volador  
   - **Habilidad:** Cólera Ardiente  
 
-🔙 [Volver al inicio](README.md)
+🔙 [Volver al inicio](https://mvillegasuc.github.io/Proyecto_CS/VENCES/)
