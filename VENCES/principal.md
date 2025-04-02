@@ -41,4 +41,4 @@ Las formas paradox son un grupo de Pokémon que se parecen mucho a versiones pri
 
 -------------------------------------------------------------------
 
-[🔙 Volver a la página principal](index.html)
+[🔙 Volver a la página principal](https://mvillegasuc.github.io/Proyecto_CS/)
