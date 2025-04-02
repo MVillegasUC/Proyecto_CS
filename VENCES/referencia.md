@@ -11,6 +11,7 @@ En esta sección se encuentran las páginas que ayudaron para crear la informaci
 - [Evolución por ADAPTACIÓN](https://www.ugr.es/~jmgreyes/adaptacion.html)
 - [Pokeminers](https://pokeminers.com/graphics/)
 - [La mecánica que cambió Pokémon](https://www.youtube.com/watch?v=6IdyqfSFtS0&t=626s)
+- [Serebii.net](https://www.serebii.net/)
 
 ---
 
