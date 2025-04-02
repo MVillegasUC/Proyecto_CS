@@ -1,6 +1,4 @@
 
-![Image](https://github.com/user-attachments/assets/a89b92d5-c735-4596-bb60-14ca19449e31)
-
 # ☀️ Formas Regionales de Alola  
 
 ## 🌴 ¿Qué son las Formas de Alola?  
