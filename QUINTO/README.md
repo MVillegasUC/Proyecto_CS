@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>CABECERA</h1>
-    <p>Test primer sitio web MVillegas</p>
+    <h1>proyect</h1>
+    <p>Test primer sitio web BQuinto</p>
     <script src="script.js"></script>
 </body>
 </html>
