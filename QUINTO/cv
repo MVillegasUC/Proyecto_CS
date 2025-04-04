@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Currículum Vitae - Berta Quinto Taipe</title> 
+    <style> 
+        body { 
+            font-family: sans-serif; 
+            line-height: 1.6; 
+            margin: 20px; 
+        } 
+        h1, h2 { 
+            color: #333; 
+        } 
+        .section { 
+            margin-bottom: 20px; 
+        } 
+        .section-title { 
+            font-weight: bold; 
+            margin-bottom: 10px; 
+        } 
+    </style> 
+</head> 
+<body> 
+ 
+<h1>Berta Quinto Taipe</h1> 
+DNI: 47165799 
+Estudiante de Ingeniería de Sistemas e Informática 
+ 
+ 
+<div class="section"> 
+    <h2 class="section-title">Información de Contacto</h2> 
+     
+        <!-- Agrega tu información de contacto aquí --> 
+        Teléfono:  <940676050> 
+        Correo electrónico: <quintotaipeb@gmail.com> 
+        LinkedIn: <quintotaipeb@gmail.com> 
+        GitHub: <47165799@continental.edu.pe> 
+        Dirección: <calle san pedro 345 san carlos> 
+     
+</div> 
+ 
+ 
+<div class="section"> 
+    <h2 class="section-title">Habilidades</h2> 
+     
+        <!-- Agrega tus habilidades aquí, puedes usar listas con viñetas --> 
+        * Programación (menciona lenguajes: Python, Java, etc.) <br> 
+        * Bases de datos (SQL, NoSQL) <br> 
+        * Sistemas operativos (Windows, Linux, macOS) <br> 
+        * Desarrollo web (HTML, CSS, JavaScript, frameworks) <br> 
+        *  (Añade otras habilidades relevantes) <br> 
+     
+</div> 
+ 
+ 
+<div class="section"> 
+    <h2 class="section-title">Experiencia</h2> 
+     
+     
+</div> 
+ 
+ 
+<div class="section"> 
+    <h2 class="section-title">Educación</h2> 
+     
+        * Ingeniería de Sistemas e Informática - universidad continental 2022-2026
+</div> 
+ 
+ 
+<div class="section"> 
+    <h2 class="section-title">Proyectos</h2> 
+     
+        <!-- Describe tus proyectos aquí --> 
+        (Ejemplo: Proyecto de desarrollo de una aplicación web para...) 
+     
+</div> 
+ 
+ 
+</body> 
+</html> 
