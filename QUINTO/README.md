@@ -1,2 +1,14 @@
-Este portafolio representa mi viaje de aprendizaje en el mundo de la programación y el desarrollo web.  Como estudiante de Ingeniería de Sistemas e Informática, estoy constantemente buscando nuevos desafíos y oportunidades de aprendizaje.
- 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITULO_TEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CABECERA</h1>
+    <p>Test primer sitio web MVillegas</p>
+    <script src="script.js"></script>
+</body>
+</html>
