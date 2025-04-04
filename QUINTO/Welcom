@@ -1,1 +1,15 @@
-<p>Este portafolio representa mi viaje de aprendizaje en el mundo de la programación y el desarrollo web. Como estudiante de Ingeniería de Sistemas e Informática, estoy constantemente buscando nuevos desafíos y oportunidades de aprendizaje.</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
