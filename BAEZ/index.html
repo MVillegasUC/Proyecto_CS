@@ -8,17 +8,6 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <!-- Barra de navegación -->
-    <header>
-        <nav>
-            <ul class="menu">
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <!-- Sección de bienvenida -->
     <section id="about">
         <h1>¡Hola! Soy Americo</h1>
@@ -28,12 +17,25 @@
         <!-- Agregar estadísticas de GitHub -->
         <div class="github-stats">
             <h3>Estadísticas de GitHub</h3>
-            <!-- Gráficos de GitHub -->
-            <img src="https://github-readme-stats.vercel.app/api?username=AMERICO-BQ&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats"><br/>
-            <img src="https://nirzak-streak-stats.vercel.app/?user=AMERICO-BQ&theme=github_dark&hide_border=false" alt="GitHub Streak Stats"><br/>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AMERICO-BQ&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="GitHub Top Languages">
+            <!-- Contenedor de los gráficos de GitHub en disposición horizontal -->
+            <div class="github-graphs">
+                <img src="https://github-readme-stats.vercel.app/api?username=AMERICO-BQ&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats">
+                <img src="https://nirzak-streak-stats.vercel.app/?user=AMERICO-BQ&theme=github_dark&hide_border=false" alt="GitHub Streak Stats">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AMERICO-BQ&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="GitHub Top Languages">
+            </div>
         </div>
     </section>
+
+    <!-- Barra de navegación (ahora después de 'Sobre mí') -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Buscador -->
     <section id="projects">
