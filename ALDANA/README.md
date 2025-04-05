@@ -36,15 +36,6 @@
 🔗 Sitio Web: [inco.pe](https://inco.pe)
 
 ---
-
-## 🎨 Paleta de colores base (inspiración)
-
-| Color     | Hex      | Uso sugerido             |
-|-----------|----------|--------------------------|
-| 🖤 Negro  | `#000000`| Fondo principal           |
-| 💛 Amarillo | `#FFD700`| Acentos y énfasis        |
-| 🤍 Blanco | `#FFFFFF`| Texto y contraste         |
-
 ---
 
 <p align="center">
