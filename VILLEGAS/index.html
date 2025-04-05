@@ -8,7 +8,120 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      background-color: #f8c8dc;
+      font-family: 'Arial', sans-serif;
+      color: #4a4a4a;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 100%;
+      height: 45vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .presentacion {
+      padding: 2rem 1rem 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .pantalla {
+      background-color: white;
+      width: 80%;
+      max-width: 900px;
+      margin: 2rem auto;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      background-color: #f9a8d4;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+      transition: background 0.3s;
+    }
+
+    .tab:hover {
+      background-color: #ec4899;
+    }
+
+    .contenido {
+      display: none;
+    }
+
+    .contenido.activo {
+      display: block;
+      padding: 1rem;
+      background-color: #fff0f5;
+      border-radius: 8px;
+    }
+
+    /* --- Estilos para subpestañas del portafolio --- */
+    .subtabs {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    .subtab {
+      background-color: #fbcfe8;
+      border: none;
+      padding: 0.4rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      color: #4a4a4a;
+      transition: background 0.3s;
+    }
+
+    .subtab:hover {
+      background-color: #f472b6;
+      color: white;
+    }
+
+    .contenido-sub {
+      display: none;
+    }
+
+    .contenido-sub.activo {
+      display: block;
+      padding-top: 1rem;
+    }
+
+
+  </style>
 </head>
 <body class="index-page">
 
