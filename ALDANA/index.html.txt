@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Felipe Aldana Vilca - Página Personal</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Luis Felipe Aldana Vilca</h1>
+        <p>Co-fundador y Director de Transformación Digital y Proyectos Tecnológicos</p>
+    </header>
+
+    <section id="introduccion">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy un empresario con experiencia en ciberseguridad, gestión de proyectos y desarrollo de sistemas. 
+            He liderado iniciativas utilizando metodologías ágiles como SCRUM, Design Thinking y Data Analytics, 
+            siempre buscando soluciones innovadoras que generen valor.
+        </p>
+        <p>
+            Creo que los sueños se pueden hacer realidad con pasión, trabajo en equipo y aprendizaje constante. 
+            Como empresario, he aprendido a adaptar mis habilidades, enfrentar retos y liderar equipos hacia el éxito.
+        </p>
+        <p>
+            Mi enfoque está en aplicar mis conocimientos y habilidades técnicas para transformar organizaciones 
+            y generar un impacto real, siempre comprometido con la mejora continua.
+        </p>
+        <img src="https://www.inco.pe/images/ejemplo1.jpg" alt="Imagen relacionada" class="img-responsive">
+    </section>
+
+    <footer>
+        <p>¡Gracias por visitar mi página!</p>
+    </footer>
+</body>
+</html>
