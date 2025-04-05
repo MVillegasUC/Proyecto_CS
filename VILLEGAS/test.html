@@ -6,7 +6,7 @@
   <title>Mi GitHub Page</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Estilos personalizados -->
   <style>
@@ -21,7 +21,7 @@
 
     .profile-img {
       width: 100%;
-      height: 55vh;
+      height: 45vh;
       overflow: hidden;
       display: flex;
       justify-content: center;
@@ -85,29 +85,64 @@
       background-color: #fff0f5;
       border-radius: 8px;
     }
+
+    .subtabs {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    .subtab {
+      background-color: #fbcfe8;
+      border: none;
+      padding: 0.4rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      color: #4a4a4a;
+      transition: background 0.3s;
+    }
+
+    .subtab:hover {
+      background-color: #f472b6;
+      color: white;
+    }
+
+    .contenido-sub {
+      display: none;
+    }
+
+    .contenido-sub.activo {
+      display: block;
+      padding-top: 1rem;
+    }
   </style>
 </head>
 <body class="index-page">
 
-  <!-- Imagen de perfil como fondo (monitor) -->
-  <header id="header" class="header dark-background d-flex flex-column">
+  <!-- Imagen de perfil -->
+  <header class="header d-flex flex-column">
     <div class="profile-img">
-      <img src="assets/img/pngtree_pink screen 3d render minimalist_13372173_mod.jpg" alt="Foto de presentacion" class="img-fluid rounded-circle">
+      <img src="assets/img/pngtree_pink screen 3d render minimalist_13372173_mod.jpg" alt="Foto de presentación" class="img-fluid rounded-circle">
     </div>
   </header>
 
   <!-- Presentación -->
   <div class="presentacion">
-    ✨ <strong>¡Hola, soy Merrie Villegas! </strong>, estudiante del 7° ciclo de la carrera de Ingeniería de Sistemas. <br>
-    En proceso de crear un portafolio funcionales, lleno de colores rosas y llenas de personalidad. ✨
+    🌸 <strong>¡Hola, soy Merrie Villegas! </strong> 🌸<br>
+    y me encuentro en proceso de crear un portafolio funcional,<br>
+    lleno de color rosa y personalidad ✨
   </div>
 
-  <!-- Pantalla con pestañas -->
+  <!-- Pantalla principal -->
   <div class="pantalla">
     <div class="tabs">
       <button class="tab" onclick="mostrar('inicio')">Inicio</button>
       <button class="tab" onclick="mostrar('sobre')">Sobre mí</button>
       <button class="tab" onclick="mostrar('portafolio')">Portafolio</button>
+      <button class="tab" onclick="mostrar('certificados')">Certificados</button>
       <button class="tab" onclick="mostrar('contacto')">Contacto</button>
     </div>
 
@@ -118,12 +153,48 @@
 
     <div id="sobre" class="contenido">
       <h2>Sobre mí</h2>
-      <p>Me gusta crear con detalle, color y armonía.</p>
+      <p>Soy estudiante del 7° ciclo de Ingeniería de Sistemas e Informática. Actualmente, como parte del curso de Construcción de Software, estoy enfocándome en el desarrollo de habilidades en programación, buscando crear con detalle, color y armonía.</p>
     </div>
 
     <div id="portafolio" class="contenido">
       <h2>Portafolio</h2>
-      <p>Te presento algunos de mis proyectos aquí.</p>
+      <p>Esta sección busca reflejar mis habilidades técnicas y capacidad para documentar soluciones prácticas que he utilizado a lo largo de mi vida profesional.</p>
+
+      <div class="subtabs">
+        <button class="subtab" onclick="mostrarSub('soporte')">Soporte Técnico</button>
+        <button class="subtab" onclick="mostrarSub('oracle')">Oracle 19c</button>
+      </div>
+
+      <div id="soporte" class="contenido-sub activo">
+        <h3>Soporte Técnico</h3>
+        <p>Soluciones aplicadas a incidencias comunes: redes, formateo, instalación de sistemas operativos, antivirus, impresoras y más.</p>
+        <ul style="text-align: left;">
+          <li><a href="docs/soporte/IMPRESORA%20_Instalar.txt" target="_blank">IMPRESORA _Instalar.txt</a></li>
+          <li><a href="docs/soporte/INTERNET%20_Ver%20archivo%20host.txt" target="_blank">INTERNET _Ver archivo host.txt</a></li>
+          <li><a href="docs/soporte/StickyNotes%20_Notas%20rápidas.txt" target="_blank">StickyNotes _Notas rápidas.txt</a></li>
+          <li><a href="docs/soporte/USB%20_Inhabilitar.txt" target="_blank">USB _Inhabilitar.txt</a></li>
+          <li><a href="docs/soporte/usuario%20temporal.txt" target="_blank">usuario temporal.txt</a></li>
+        </ul>
+      </div>
+
+      <div id="oracle" class="contenido-sub">
+        <h3>Oracle 19c</h3>
+        <p>Consultas SQL, procedimientos y estructuras de base de datos diseñadas en Oracle 19c como parte de mis prácticas académicas.</p>
+        <ul style="text-align: left;">
+          <li><a href="docs/oracle/BLOQUEAR%20USUARIO.sql" target="_blank">BLOQUEAR USUARIO.sql</a></li>
+          <li><a href="docs/oracle/VER%20FECHA%20Y%20HORA%20BD.sql" target="_blank">VER FECHA Y HORA BD.sql</a></li>
+          <li><a href="docs/oracle/VER%20TAMAÑO%20DE%20ESQUEMA.sql" target="_blank">VER TAMAÑO DE ESQUEMA.sql</a></li>
+          <li><a href="docs/oracle/VER%20USUARIO.sql" target="_blank">VER USUARIO.sql</a></li>
+          <li><a href="docs/oracle/VER%20VERSION%20BD.sql" target="_blank">VER VERSION BD.sql</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="certificados" class="contenido">
+      <h2>Certificados</h2>
+      <p>Estos son algunos de los certificados que he obtenido:</p>
+      <img src="assets/cert/Ingles_A1.JPG" alt="Certificado 1" class="img-fluid rounded mb-3" width="80%">
+      <img src="assets/cert/INEI_Big_Data.JPG" alt="Certificado 2" class="img-fluid rounded mb-3" width="80%">
     </div>
 
     <div id="contacto" class="contenido">
@@ -133,9 +204,9 @@
   </div>
 
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Script de pestañas -->
+  <!-- Script pestañas -->
   <script>
     function mostrar(id) {
       document.querySelectorAll('.contenido').forEach(el => {
@@ -143,7 +214,13 @@
       });
       document.getElementById(id).classList.add('activo');
     }
-  </script>
 
+    function mostrarSub(id) {
+      document.querySelectorAll('.contenido-sub').forEach(el => {
+        el.classList.remove('activo');
+      });
+      document.getElementById(id).classList.add('activo');
+    }
+  </script>
 </body>
 </html>
