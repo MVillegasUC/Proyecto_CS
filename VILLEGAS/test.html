@@ -7,6 +7,22 @@
   
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous">
+
+  <!-- Estilos personalizados -->
+  <style>
+    /* Aseguramos que la imagen no se estire más allá del ancho de la pantalla */
+    .profile-img img {
+      width: 100%;   /* Ancho del 100% del contenedor */
+      height: auto;  /* Altura automática para mantener las proporciones */
+      object-fit: cover;  /* Hace que la imagen cubra el contenedor sin perder proporciones */
+    }
+
+    /* Aseguramos que el contenedor de la imagen ocupe el 100% del ancho */
+    .profile-img {
+      width: 100%;
+      height: 100vh;  /* Alto de la pantalla */
+    }
+  </style>
 </head>
 <body class="index-page">
 
