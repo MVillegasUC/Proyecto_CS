@@ -3,129 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Monitor Interactivo</title>
+  <title>Mi GitHub Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous">
+
+  <!-- Estilos personalizados -->
   <style>
     body {
+      background-color: #f8c8dc;
+      font-family: 'Arial', sans-serif;
+      color: #4a4a4a;
       margin: 0;
       padding: 0;
-      background: #f8dce8;
-      font-family: sans-serif;
+      text-align: center;
     }
 
-    .monitor-container {
-      position: relative;
-      width: 90vw;
-      max-width: 1000px;
+    .profile-img {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .presentacion {
+      padding: 2rem 1rem 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      max-width: 800px;
       margin: auto;
     }
 
-    .monitor-img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
     .pantalla {
-      position: absolute;
-      top: 17.5%;
-      left: 18.5%;
-      width: 63%;
-      height: 47.5%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      text-align: center;
-      padding: 1vw;
-      box-sizing: border-box;
-      background-color: rgba(255, 255, 255, 0.95);
-      border-radius: 1vw;
-      overflow-y: auto;
+      background-color: white;
+      width: 80%;
+      max-width: 900px;
+      margin: 2rem auto;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
 
     .tabs {
       display: flex;
-      gap: 10px;
-      margin-bottom: 10px;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
     }
 
-    .tab-button {
-      padding: 6px 12px;
+    .tab {
+      background-color: #f9a8d4;
       border: none;
-      border-radius: 5px;
-      background-color: #ffb6c1;
-      color: #000;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
       cursor: pointer;
       font-weight: bold;
-    }
-
-    .tab-button.active {
-      background-color: #ff69b4;
       color: white;
+      transition: background 0.3s;
     }
 
-    .tab-content {
+    .tab:hover {
+      background-color: #ec4899;
+    }
+
+    .contenido {
       display: none;
-      font-size: 1.1em;
     }
 
-    .tab-content.active {
+    .contenido.activo {
       display: block;
-    }
-
-    @media (max-width: 600px) {
-      .pantalla {
-        font-size: 4vw;
-        padding: 2vw;
-      }
-      .tab-button {
-        font-size: 3vw;
-        padding: 4px 8px;
-      }
+      padding: 1rem;
+      background-color: #fff0f5;
+      border-radius: 8px;
     }
   </style>
 </head>
-<body>
+<body class="index-page">
 
-  <div class="monitor-container">
-    <img src="image.png" alt="Monitor rosa" class="monitor-img">
-    
-    <div class="pantalla">
-      <div class="tabs">
-        <button class="tab-button active" onclick="showTab('inicio')">Inicio</button>
-        <button class="tab-button" onclick="showTab('proyectos')">Proyectos</button>
-        <button class="tab-button" onclick="showTab('contacto')">Contacto</button>
-      </div>
+  <!-- Imagen de perfil como fondo (monitor) -->
+  <header id="header" class="header dark-background d-flex flex-column">
+    <div class="profile-img">
+      <img src="assets/img/pngtree_pink screen 3d render minimalist_13372173.jpg" alt="Foto de presentacion" class="img-fluid rounded-circle">
+    </div>
+  </header>
 
-      <div id="inicio" class="tab-content active">
-        <p>¡Hola! Soy <strong>Merrie</strong> 💻<br>Bienvenid@ a mi espacio creativo.</p>
-      </div>
+  <!-- Presentación -->
+  <div class="presentacion">
+    ✨ <strong>¡Hola, soy Merrie Villegas! </strong>, estudiante del 7° ciclo de la carrera de Ingeniería de Sistemas. <br>
+    En proceso de crear un portafolio funcionales, lleno de colores rosas y llenas de personalidad. ✨
+  </div>
 
-      <div id="proyectos" class="tab-content">
-        <p>Aquí encontrarás mis <strong>proyectos de programación</strong>, bases de datos y más ✨</p>
-      </div>
+  <!-- Pantalla con pestañas -->
+  <div class="pantalla">
+    <div class="tabs">
+      <button class="tab" onclick="mostrar('inicio')">Inicio</button>
+      <button class="tab" onclick="mostrar('sobre')">Sobre mí</button>
+      <button class="tab" onclick="mostrar('portafolio')">Portafolio</button>
+      <button class="tab" onclick="mostrar('contacto')">Contacto</button>
+    </div>
 
-      <div id="contacto" class="tab-content">
-        <p>¿Quieres hablar? 📩<br>Escríbeme a: <strong>merrie@email.com</strong></p>
-      </div>
+    <div id="inicio" class="contenido activo">
+      <h2>¡Bienvenid@!</h2>
+      <p>Este es mi espacio creativo donde combino diseño y código para crear magia digital.</p>
+    </div>
+
+    <div id="sobre" class="contenido">
+      <h2>Sobre mí</h2>
+      <p>Me gusta crear con detalle, color y armonía.</p>
+    </div>
+
+    <div id="portafolio" class="contenido">
+      <h2>Portafolio</h2>
+      <p>Te presento algunos de mis proyectos aquí.</p>
+    </div>
+
+    <div id="contacto" class="contenido">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a: <a href="mailto:ing.mvillegas@gmail.com">ing.mvillegas@gmail.com</a></p>
     </div>
   </div>
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous"></script>
+
+  <!-- Script de pestañas -->
   <script>
-    function showTab(tabId) {
-      // Ocultar todos los contenidos
-      document.querySelectorAll('.tab-content').forEach(content => {
-        content.classList.remove('active');
+    function mostrar(id) {
+      document.querySelectorAll('.contenido').forEach(el => {
+        el.classList.remove('activo');
       });
-
-      // Desactivar todos los botones
-      document.querySelectorAll('.tab-button').forEach(button => {
-        button.classList.remove('active');
-      });
-
-      // Mostrar la pestaña seleccionada
-      document.getElementById(tabId).classList.add('active');
-      event.target.classList.add('active');
+      document.getElementById(id).classList.add('activo');
     }
   </script>
 
