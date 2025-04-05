@@ -183,14 +183,20 @@
         <h3>Soporte Técnico</h3>
         <p>Soluciones aplicadas a incidencias comunes: redes, formateo, instalación de sistemas operativos, antivirus, impresoras y más.</p>
         <ul style="text-align: left;">
-          <li><a href="docs/soporte/IMPRESORA%20_Instalar.txt" target="_blank">IMPRESORA: Instalar dispositivo</a></li>
-          <li><a href="docs/soporte/INTERNET%20_Ver%20archivo%20host.txt" target="_blank">Internet: Ver archivo host</a></li>
-          <li><a href="docs/soporte/StickyNotes%20_Notas%20rápidas.txt" target="_blank">StickyNotes: Ver ubicación</a></li>
-          <li><a href="docs/soporte/USB%20_Inhabilitar.txt" target="_blank">USB: Inhabilitar puerto</a></li>
-          <li><a href="docs/soporte/usuario%20temporal.txt" target="_blank">REGEDIT: Ver usuario temporal</a></li>
+          <li><a href="#" onclick="verArchivo('docs/soporte/IMPRESORA _Instalar.txt')">IMPRESORA: Instalar dispositivo</a></li>
+          <li><a href="#" onclick="verArchivo('docs/soporte/INTERNET _Ver archivo host.txt')">Internet: Ver archivo host</a></li>
+          <li><a href="#" onclick="verArchivo('docs/soporte/StickyNotes _Notas rápidas.txt')">StickyNotes: Ver ubicación</a></li>
+          <li><a href="#" onclick="verArchivo('docs/soporte/USB _Inhabilitar.txt')">USB: Inhabilitar puerto</a></li>
+          <li><a href="#" onclick="verArchivo('docs/soporte/usuario temporal.txt')">REGEDIT: Ver usuario temporal</a></li>
         </ul>
+       
       </div>
-
+      
+      <div id="preview" class="text-start mt-4" style="background-color: #fef2f8; padding: 1rem; border-radius: 10px; display: none;">
+        <h5>Vista previa:</h5>
+        <pre><code id="file-content" style="white-space: pre-wrap;"></code></pre>
+      </div>
+      
       <div id="oracle" class="contenido-sub">
         <h3>Oracle 19c</h3>
         <p>Consultas SQL, procedimientos y estructuras de base de datos diseñadas en Oracle 19c como parte de mis prácticas académicas.</p>
@@ -265,6 +271,24 @@
       document.getElementById(id).classList.add('activo');
     }
   </script>
+
+<script>
+  function verArchivo(ruta) {
+    fetch(ruta)
+      .then(response => {
+        if (!response.ok) throw new Error('No se pudo cargar el archivo');
+        return response.text();
+      })
+      .then(texto => {
+        document.getElementById('file-content').textContent = texto;
+        document.getElementById('preview').style.display = 'block';
+      })
+      .catch(error => {
+        document.getElementById('file-content').textContent = 'Error al cargar archivo: ' + error.message;
+        document.getElementById('preview').style.display = 'block';
+      });
+  }
+</script>
 
 <footer class="text-center py-3" style="background-color: #f8c8dc; color: #4a4a4a; font-weight: bold;">
   © 2025 Merrie Villegas Arcentales. Todos los derechos reservados.
