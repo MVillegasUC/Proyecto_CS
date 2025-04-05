@@ -10,17 +10,21 @@
 
   <!-- Estilos personalizados -->
   <style>
-    /* Aseguramos que la imagen no se estire más allá del ancho de la pantalla */
-    .profile-img img {
-      width: 100%;   /* Ancho del 100% del contenedor */
-      height: auto;  /* Altura automática para mantener las proporciones */
-      object-fit: cover;  /* Hace que la imagen cubra el contenedor sin perder proporciones */
-    }
-
-    /* Aseguramos que el contenedor de la imagen ocupe el 100% del ancho */
+    /* Aseguramos que el contenedor de la imagen ocupe todo el espacio de la pantalla */
     .profile-img {
       width: 100%;
       height: 100vh;  /* Alto de la pantalla */
+      overflow: hidden; /* Asegura que la imagen no se desborde */
+      display: flex;
+      justify-content: center; /* Centra la imagen horizontalmente */
+      align-items: center; /* Centra la imagen verticalmente */
+    }
+
+    /* Aseguramos que la imagen se ajuste bien y sea cuadrada */
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Hace que la imagen cubra el área sin perder sus proporciones */
     }
   </style>
 </head>
