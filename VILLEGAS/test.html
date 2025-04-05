@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi GitHub Page</title>
+  <title>Portafolio Merrie - Monitor Interactivo</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous">
 
-  <!-- Estilos personalizados -->
   <style>
     body {
       background-color: #f8c8dc;
@@ -19,37 +18,35 @@
       text-align: center;
     }
 
-    .profile-img {
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .profile-img img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .presentacion {
-      padding: 2rem 1rem 1rem;
-      font-size: 1.2rem;
-      font-weight: bold;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .pantalla {
-      background-color: white;
-      width: 80%;
-      max-width: 900px;
+    .contenedor-monitor {
+      position: relative;
+      width: 90vw;
+      max-width: 1000px;
       margin: 2rem auto;
-      border-radius: 10px;
+    }
+
+    .monitor {
+      width: 100%;
+      display: block;
+    }
+
+    .pantalla-texto {
+      position: absolute;
+      top: 17.5%;
+      left: 18.5%;
+      width: 63%;
+      height: 47.5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      font-size: 1.1rem;
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 1vw;
       padding: 1rem;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      box-sizing: border-box;
+      overflow-y: auto;
     }
 
     .tabs {
@@ -87,60 +84,48 @@
     }
   </style>
 </head>
-<body class="index-page">
+<body>
 
-  <!-- Imagen de perfil como fondo (monitor) -->
-  <header id="header" class="header dark-background d-flex flex-column">
-    <div class="profile-img">
-      <img src="assets/img/pngtree_pink screen 3d render minimalist_13372173.jpg" alt="Foto de presentacion" class="img-fluid rounded-circle">
-    </div>
-  </header>
+  <!-- Imagen del monitor con pestañas dentro de la pantalla -->
+  <div class="contenedor-monitor">
+    <img src="assets/img/pngtree_pink screen 3d render minimalist_13372173.jpg" alt="Monitor" class="monitor">
+    <div class="pantalla-texto">
+      <div class="tabs">
+        <button class="tab" onclick="mostrar('inicio')">Inicio</button>
+        <button class="tab" onclick="mostrar('sobre')">Sobre mí</button>
+        <button class="tab" onclick="mostrar('portafolio')">Portafolio</button>
+        <button class="tab" onclick="mostrar('contacto')">Contacto</button>
+      </div>
 
-  <!-- Presentación -->
-  <div class="presentacion">
-    ✨ <strong>¡Hola, soy Merrie Villegas! </strong>, estudiante del 7° ciclo de la carrera de Ingeniería de Sistemas. <br>
-    En proceso de crear un portafolio funcionales, lleno de colores rosas y llenas de personalidad. ✨
-  </div>
+      <div id="inicio" class="contenido activo">
+        <h2>¡Bienvenid@!</h2>
+        <p>Este es mi espacio creativo donde combino diseño y código para crear magia digital.</p>
+      </div>
 
-  <!-- Pantalla con pestañas -->
-  <div class="pantalla">
-    <div class="tabs">
-      <button class="tab" onclick="mostrar('inicio')">Inicio</button>
-      <button class="tab" onclick="mostrar('sobre')">Sobre mí</button>
-      <button class="tab" onclick="mostrar('portafolio')">Portafolio</button>
-      <button class="tab" onclick="mostrar('contacto')">Contacto</button>
-    </div>
+      <div id="sobre" class="contenido">
+        <h2>Sobre mí</h2>
+        <p>Soy Merrie Villegas, estudiante del 7º ciclo de Ingeniería de Sistemas. Me gusta crear con detalle, color y armonía.</p>
+      </div>
 
-    <div id="inicio" class="contenido activo">
-      <h2>¡Bienvenid@!</h2>
-      <p>Este es mi espacio creativo donde combino diseño y código para crear magia digital.</p>
-    </div>
+      <div id="portafolio" class="contenido">
+        <h2>Portafolio</h2>
+        <p>Te presento algunos de mis proyectos aquí. ✨</p>
+      </div>
 
-    <div id="sobre" class="contenido">
-      <h2>Sobre mí</h2>
-      <p>Me gusta crear con detalle, color y armonía.</p>
-    </div>
-
-    <div id="portafolio" class="contenido">
-      <h2>Portafolio</h2>
-      <p>Te presento algunos de mis proyectos aquí.</p>
-    </div>
-
-    <div id="contacto" class="contenido">
-      <h2>Contacto</h2>
-      <p>Puedes escribirme a: <a href="mailto:ing.mvillegas@gmail.com">ing.mvillegas@gmail.com</a></p>
+      <div id="contacto" class="contenido">
+        <h2>Contacto</h2>
+        <p>Puedes escribirme a: <a href="mailto:ing.mvillegas@gmail.com">ing.mvillegas@gmail.com</a></p>
+      </div>
     </div>
   </div>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous"></script>
 
-  <!-- Script de pestañas -->
+  <!-- Script pestañas -->
   <script>
     function mostrar(id) {
-      document.querySelectorAll('.contenido').forEach(el => {
-        el.classList.remove('activo');
-      });
+      document.querySelectorAll('.contenido').forEach(el => el.classList.remove('activo'));
       document.getElementById(id).classList.add('activo');
     }
   </script>
