@@ -4,44 +4,146 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi GitHub Page</title>
-  
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous">
 
   <!-- Estilos personalizados -->
   <style>
-    /* Aseguramos que el contenedor de la imagen ocupe todo el espacio de la pantalla */
-    .profile-img {
-      width: 100%;
-      height: 100vh;  /* Alto de la pantalla */
-      overflow: hidden; /* Asegura que la imagen no se desborde */
-      display: flex;
-      justify-content: center; /* Centra la imagen horizontalmente */
-      align-items: center; /* Centra la imagen verticalmente */
+    body {
+      background-color: #f8c8dc;
+      font-family: 'Arial', sans-serif;
+      color: #4a4a4a;
+      margin: 0;
+      padding: 0;
+      text-align: center;
     }
 
-    /* Aseguramos que la imagen se ajuste bien y sea cuadrada */
+    .profile-img {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .profile-img img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* Hace que la imagen cubra el área sin perder sus proporciones */
+      object-fit: cover;
+    }
+
+    .presentacion {
+      padding: 2rem 1rem 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .pantalla {
+      background-color: white;
+      width: 80%;
+      max-width: 900px;
+      margin: 2rem auto;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      background-color: #f9a8d4;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+      transition: background 0.3s;
+    }
+
+    .tab:hover {
+      background-color: #ec4899;
+    }
+
+    .contenido {
+      display: none;
+    }
+
+    .contenido.activo {
+      display: block;
+      padding: 1rem;
+      background-color: #fff0f5;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body class="index-page">
 
-  <!-- Header -->
+  <!-- Imagen de perfil como fondo (monitor) -->
   <header id="header" class="header dark-background d-flex flex-column">
-    <!-- Ícono de menú, visible en dispositivos pequeños -->
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <!-- Imagen de perfil -->
     <div class="profile-img">
       <img src="assets/img/pngtree_pink screen 3d render minimalist_13372173.jpg" alt="Foto de perfil" class="img-fluid rounded-circle">
     </div>
   </header>
 
+  <!-- Presentación -->
+  <div class="presentacion">
+    ✨ <strong>¡Hola! Soy Valentina</strong>, diseñadora y desarrolladora web con amor por los colores pastel y las interfaces limpias. <br>
+    Me encanta crear experiencias digitales hermosas, funcionales y llenas de personalidad. ✨
+  </div>
+
+  <!-- Pantalla con pestañas -->
+  <div class="pantalla">
+    <div class="tabs">
+      <button class="tab" onclick="mostrar('inicio')">Inicio</button>
+      <button class="tab" onclick="mostrar('sobre')">Sobre mí</button>
+      <button class="tab" onclick="mostrar('portafolio')">Portafolio</button>
+      <button class="tab" onclick="mostrar('contacto')">Contacto</button>
+    </div>
+
+    <div id="inicio" class="contenido activo">
+      <h2>¡Bienvenid@!</h2>
+      <p>Este es mi espacio creativo donde combino diseño y código para crear magia digital.</p>
+    </div>
+
+    <div id="sobre" class="contenido">
+      <h2>Sobre mí</h2>
+      <p>Soy apasionada del diseño UX/UI y el desarrollo frontend. Me gusta crear con detalle, color y armonía.</p>
+    </div>
+
+    <div id="portafolio" class="contenido">
+      <h2>Portafolio</h2>
+      <p>Pronto verás algunos de mis proyectos favoritos aquí.</p>
+    </div>
+
+    <div id="contacto" class="contenido">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a: <a href="mailto:valentina@email.com">valentina@email.com</a></p>
+    </div>
+  </div>
+
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRegg68g2x6A1sOjASouMQzF1gFVcMLe1/qjzDlSMgu9" crossorigin="anonymous"></script>
+
+  <!-- Script de pestañas -->
+  <script>
+    function mostrar(id) {
+      document.querySelectorAll('.contenido').forEach(el => {
+        el.classList.remove('activo');
+      });
+      document.getElementById(id).classList.add('activo');
+    }
+  </script>
+
 </body>
 </html>
