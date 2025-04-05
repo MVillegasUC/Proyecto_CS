@@ -163,8 +163,27 @@
     <div id="portafolio" class="contenido">
       <h2>Portafolio</h2>
       <p>Esta sección busca reflejar mis habilidades técnicas y capacidad para documentar soluciones prácticas que he utilizado a lo largo de mi vida profesional.</p>
+    
+      <!-- Subpestañas -->
+      <div class="subtabs">
+        <button class="subtab" onclick="mostrarSub('soporte')">Soporte Técnico</button>
+        <button class="subtab" onclick="mostrarSub('oracle')">Oracle 19c</button>
+      </div>
+    
+      <!-- Contenido de subpestañas -->
+      <div id="soporte" class="contenido-sub activo">
+        <h3>Soporte Técnico</h3>
+        <p>En esta sección muestro soluciones reales aplicadas a incidencias comunes: redes, formateo, instalación de sistemas operativos, antivirus, impresoras y más.</p>
+        <!-- Aquí puedes agregar imágenes o PDFs -->
+      </div>
+    
+      <div id="oracle" class="contenido-sub">
+        <h3>Oracle 19c</h3>
+        <p>Consultas SQL, procedimientos y estructuras de base de datos diseñadas en Oracle 19c como parte de mis prácticas académicas.</p>
+        <!-- Aquí puedes agregar capturas o scripts -->
+      </div>
     </div>
-
+    
 
     <div id="certificados" class="contenido">
       <h2>Certificados</h2>
@@ -191,7 +210,14 @@
       });
       document.getElementById(id).classList.add('activo');
     }
-  </script>
+
+  function mostrarSub(id) {
+    document.querySelectorAll('.contenido-sub').forEach(el => {
+      el.classList.remove('activo');
+    });
+    document.getElementById(id).classList.add('activo');
+  }
+</script>
 
 </body>
 </html>
