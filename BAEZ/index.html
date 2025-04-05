@@ -3,26 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Portafolio - AMERICO-BQ</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+    <!-- Barra de navegación -->
     <header>
-        <h1>Bienvenido a mi portafolio</h1>
-        <p>Mi nombre es [Tu Nombre] y soy [tu profesión o área de especialización].</p>
+        <nav>
+            <ul class="menu">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <p>Aquí podrás ver algunos de mis proyectos más destacados:</p>
-        <ul>
-            <li><a href="https://github.com/tu-usuario/proyecto1">Proyecto 1</a></li>
-            <li><a href="https://github.com/tu-usuario/proyecto2">Proyecto 2</a></li>
-        </ul>
+    <!-- Sección de bienvenida -->
+    <section id="about">
+        <h1>¡Hola! Soy Americo</h1>
+        <img src="foto-de-perfil.jpg" alt="Foto de Americo" class="profile-img">
+        <p>Desarrollador web apasionado por crear soluciones eficientes y modernas. Explora mis proyectos y descubre cómo resuelvo problemas creativos.</p>
     </section>
 
-    <footer>
-        <p>Contactame en: <a href="mailto:tu-email@dominio.com">tu-email@dominio.com</a></p>
-    </footer>
+    <!-- Buscador -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <input type="text" id="search" placeholder="Buscar proyectos..." class="search-bar">
+        
+        <div id="project-list">
+            <div class="project-card">
+                <img src="proyecto1-screenshot.jpg" alt="Proyecto 1" class="project-img">
+                <h3>Proyecto 1</h3>
+                <p>Aplicación de gestión de tareas con React.</p>
+                <a href="https://github.com/TuUsuario/proyecto1" target="_blank">Ver más</a>
+            </div>
+            <div class="project-card">
+                <img src="proyecto2-screenshot.jpg" alt="Proyecto 2" class="project-img">
+                <h3>Proyecto 2</h3>
+                <p>Aplicación móvil de clima con React Native.</p>
+                <a href="https://github.com/TuUsuario/proyecto2" target="_blank">Ver más</a>
+            </div>
+            <div class="project-card">
+                <img src="proyecto3-screenshot.jpg" alt="Proyecto 3" class="project-img">
+                <h3>Proyecto 3</h3>
+                <p>Aplicación web de e-commerce con Node.js.</p>
+                <a href="https://github.com/TuUsuario/proyecto3" target="_blank">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>¿Quieres trabajar conmigo? ¡Contáctame!</p>
+        <p>Email: <a href="mailto:tu.email@example.com">tu.email@example.com</a></p>
+    </section>
 </body>
 </html>
+
