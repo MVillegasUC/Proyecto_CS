@@ -1,36 +1,128 @@
+/* Estilos Generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
+/* Barra de Navegación */
 header {
     background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 0;
 }
 
-header h1 {
+nav ul {
+    list-style: none;
+    text-align: center;
     margin: 0;
+    padding: 0;
 }
 
-section#proyectos {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
+nav ul li a {
     color: white;
-    position: fixed;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #00AEEF;
+    border-radius: 5px;
+}
+
+/* Sección Principal */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about {
+    background-color: #333;
+    color: #fff;
+}
+
+#about h1 {
+    color: #00AEEF;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Buscador */
+.search-bar {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Proyectos */
+#project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
     width: 100%;
-    bottom: 0;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    color: #00AEEF;
+}
+
+.project-card a {
+    color: #007BFF;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Contacto */
+#contact {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%;
+    }
 }
