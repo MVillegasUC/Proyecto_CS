@@ -4,7 +4,7 @@ body {
     margin: 0;
     display: flex;
     width: 100%;
-    justify-content: center; /* Asegura que todo el contenido esté centrado */
+    justify-content: center;
 }
 
 /* Barra de navegación */
@@ -84,7 +84,7 @@ main {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido dentro de main */
+    align-items: center;
 }
 
 /* Secciones */
@@ -117,4 +117,3 @@ section {
     margin: 10px;
 }
 
-/* Otros estilos permanecen igual */
