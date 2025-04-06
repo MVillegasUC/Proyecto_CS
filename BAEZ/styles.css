@@ -1,200 +1,90 @@
-/* Estilos Generales */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-/* Barra de Navegación Lateral (Izquierda) */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 200px;  /* Ancho del menú */
-    background-color: #333;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column; /* Alinea los elementos verticalmente */
-    justify-content: flex-start;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    margin-top: 20px; /* Espacio entre la imagen y el menú */
-    width: 100%; /* Aseguramos que ocupe todo el ancho del menú */
-}
-
-nav ul li {
-    display: block;
-    margin: 20px 0;
-    text-align: center;
-}
-
-nav ul li a {
+/* Barra de navegación */
+#sidebar {
+    width: 200px;
+    background-color: #2d2d2d;
     color: white;
-    font-size: 18px;
-    padding: 10px 15px;
-    text-decoration: none;
-    display: block;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
 }
 
-nav ul li a:hover {
-    background-color: #00AEEF;
-    border-radius: 5px;
+#profile {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Imagen y nombre del usuario */
-.user-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.profile-img {
-    width: 100px;  /* Tamaño de la imagen */
+#profile img {
+    width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-bottom: 10px; /* Espacio entre la imagen y el nombre */
+    margin-bottom: 10px;
 }
 
-.user-name {
-    color: white;
+#profile h2 {
     font-size: 18px;
-    font-weight: bold;
+    margin: 0;
+    color: white;
 }
 
-/* Contenedor de contenido */
-.main-content {
-    margin-left: 220px;  /* Dejamos espacio para el menú de la izquierda */
-    padding: 50px;
-    width: 100%;
+#menu {
+    list-style: none;
+    padding-left: 0;
 }
 
-/* Sección individual */
+#menu li {
+    margin: 10px 0;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #ff6347;
+}
+
+/* Estilos para el contenido */
+main {
+    margin-left: 220px; /* espacio para la barra lateral */
+    padding: 20px;
+}
+
 section {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 30px;  /* Espacio entre las secciones */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin-bottom: 40px;
 }
 
-/* Sección de bienvenida */
-#about {
-    background-color: #333;
-    color: #fff;
+h1 {
+    font-size: 2rem;
+    color: #333;
 }
 
-#about h1 {
-    color: #00AEEF;
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 20px;
+ul li {
+    margin: 5px 0;
 }
 
-/* Estadísticas de GitHub */
-.github-stats {
-    margin-top: 30px;
+ul li a {
+    text-decoration: none;
+    color: #2d2d2d;
 }
 
-.github-graphs {
+ul li a:hover {
+    color: #ff6347;
+}
+
+/* Sección de estadísticas */
+.stats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap; /* Los gráficos se ajustan bien en pantallas pequeñas */
 }
 
-.github-graphs img {
-    width: 30%;  /* Ajusta el tamaño de los gráficos */
-    min-width: 250px;
-}
-
-/* Buscador */
-.search-bar {
-    width: 80%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-}
-
-/* Proyectos */
-#project-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.project-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    margin: 15px;
-    padding: 20px;
-    width: 250px;
-    text-align: left;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-.project-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.project-card h3 {
-    color: #00AEEF;
-}
-
-.project-card a {
-    color: #007BFF;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
-}
-
-/* Contacto */
-#contact {
-    background-color: #333;
-    color: #fff;
-}
-
-/* Responsividad */
-@media (max-width: 768px) {
-    .main-content {
-        margin-left: 0;
-        padding: 20px;  /* Ajustamos el padding en pantallas pequeñas */
-    }
-
-    .github-graphs img {
-        width: 100%;  /* Los gráficos ocupan todo el ancho en pantallas pequeñas */
-        margin-bottom: 20px;
-    }
-
-    section {
-        width: 100%;  /* Las secciones ocupan todo el ancho */
-    }
+.stats img {
+    width: 300px;
+    height: auto;
 }
