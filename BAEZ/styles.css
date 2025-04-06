@@ -4,7 +4,6 @@ body {
     margin: 0;
     display: flex;
     width: 100%;
-    justify-content: center; /* Asegura que todo el contenido esté centrado */
 }
 
 /* Barra de navegación */
@@ -84,7 +83,7 @@ main {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido dentro de main */
+    align-items: center;
 }
 
 /* Secciones */
@@ -98,17 +97,21 @@ section {
 }
 
 /* Estilo para la sección de Tecnologías */
-#tecnologias .tech-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+#tecnologias {
+    width: 80%;
 }
 
 #tecnologias h1 {
-    text-align: center;
+    text-align: left; /* Alinea el título a la izquierda */
     margin-bottom: 20px;
     font-size: 28px;
+}
+
+#tecnologias .tech-icons {
+    display: flex;
+    justify-content: flex-start; /* Alinea los íconos a la izquierda */
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 #tecnologias img {
@@ -117,5 +120,13 @@ section {
     margin: 10px;
 }
 
-/* Otros estilos permanecen igual */
- 
+/* Estilos para los proyectos */
+#proyectos {
+    margin-bottom: 20px;
+}
+
+#proyectos input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
