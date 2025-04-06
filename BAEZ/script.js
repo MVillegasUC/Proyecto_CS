@@ -1,19 +1,14 @@
-// Filtrar los proyectos según lo que el usuario ingrese en el buscador
-const searchInput = document.getElementById('search');
-const proyectosLista = document.getElementById('proyectos-lista');
-const proyectos = proyectosLista.getElementsByTagName('li');
+// Script para el filtro de proyectos
+document.getElementById("search").addEventListener("input", function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    const proyectos = document.querySelectorAll("#proyectos-lista li");
 
-searchInput.addEventListener('input', function() {
-    const query = searchInput.value.toLowerCase();
-    
-    for (let i = 0; i < proyectos.length; i++) {
-        const proyecto = proyectos[i];
-        const link = proyecto.getElementsByTagName('a')[0];
-        
-        if (link.textContent.toLowerCase().includes(query)) {
-            proyecto.style.display = '';
+    proyectos.forEach(function(proyecto) {
+        const proyectoName = proyecto.textContent.toLowerCase();
+        if (proyectoName.includes(searchTerm)) {
+            proyecto.style.display = "list-item";
         } else {
-            proyecto.style.display = 'none';
+            proyecto.style.display = "none";
         }
-    }
+    });
 });
