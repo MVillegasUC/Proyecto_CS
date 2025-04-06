@@ -61,7 +61,7 @@ section h1 {
 
 /* Estilos para los proyectos */
 #proyectos input {
-    width: 100%;
+    width: 100%; /* Aquí se restablece el ancho al 100% */
     padding: 10px;
     font-size: 16px;
     margin-bottom: 20px;
@@ -81,6 +81,12 @@ section h1 {
 }
 
 /* Estilos para las estadísticas */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .stats img {
     width: 100%;
     max-width: 350px;
@@ -96,4 +102,3 @@ section h1 {
 #contacto ul li {
     margin: 5px 0;
 }
- 
