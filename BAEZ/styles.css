@@ -47,22 +47,18 @@ body {
     font-size: 18px;
 }
 
-/* Contenedor principal que rodea el contenido */
-#contenido-principal {
-    margin-left: 220px; /* Ajusta el margen izquierdo para dar espacio a la barra lateral */
-    padding: 20px;
-    width: calc(100% - 220px);
-}
-
+/* Contenido principal */
 main {
-    margin: 0;
+    margin-left: 220px; /* Deja un espacio de 220px para la barra lateral */
+    padding: 20px;
+    width: calc(100% - 220px); /* Asegura que el contenido ocupe el espacio restante */
 }
 
 section {
     margin-bottom: 40px;
-    padding: 20px; /* Espacio interno */
+    padding: 20px; /* Espacio interno para las secciones */
     background-color: #f4f4f4; /* Fondo para las secciones */
-    border-radius: 8px; /* Bordes redondeados */
+    border-radius: 8px; /* Bordes redondeados para un diseño más suave */
 }
 
 section h1 {
