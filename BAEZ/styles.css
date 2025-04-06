@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     width: 100%;
+    justify-content: center; /* Asegura que todo el contenido esté centrado */
 }
 
 /* Barra de navegación */
@@ -81,6 +82,9 @@ main {
     padding: 20px;
     width: calc(100% - 220px);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido dentro de main */
 }
 
 /* Secciones */
@@ -89,12 +93,8 @@ section {
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 8px;
-    width: 100%;
-}
-
-section h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
+    width: 80%; /* Ancho del contenido centrado */
+    max-width: 1000px; /* Limitamos el ancho máximo para mantenerlo ordenado */
 }
 
 /* Estilos para los proyectos */
@@ -107,10 +107,14 @@ section h1 {
     padding: 10px;
     font-size: 16px;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+    border-radius: 4px;
 }
 
+/* Lista de proyectos centrada */
 #proyectos-lista {
     display: flex;
+    justify-content: center; /* Centra los proyectos */
     gap: 20px;
     flex-wrap: wrap;
     list-style-type: none;
