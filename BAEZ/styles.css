@@ -1,3 +1,10 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+}
+
 /* Barra de navegación */
 #sidebar {
     width: 200px;
@@ -8,83 +15,80 @@
     height: 100vh;
 }
 
-#profile {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#profile img {
+#sidebar img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
-#profile h2 {
-    font-size: 18px;
-    margin: 0;
-    color: white;
-}
-
-#menu {
-    list-style: none;
-    padding-left: 0;
-}
-
-#menu li {
+#sidebar h2 {
+    text-align: center;
+    font-size: 20px;
     margin: 10px 0;
 }
 
-#menu a {
+#sidebar #menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar #menu li {
+    margin: 10px 0;
+}
+
+#sidebar #menu li a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
-#menu a:hover {
-    color: #ff6347;
-}
-
-/* Estilos para el contenido */
+/* Contenido principal */
 main {
-    margin-left: 220px; /* espacio para la barra lateral */
+    margin-left: 220px;
     padding: 20px;
+    width: calc(100% - 220px);
 }
 
 section {
     margin-bottom: 40px;
 }
 
-h1 {
-    font-size: 2rem;
-    color: #333;
+section h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-ul {
-    list-style: none;
-    padding-left: 0;
+/* Estilos para los proyectos */
+#proyectos input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-ul li {
-    margin: 5px 0;
+#proyectos-lista {
+    list-style-type: none;
+    padding: 0;
 }
 
-ul li a {
-    text-decoration: none;
-    color: #2d2d2d;
+#proyectos-lista li {
+    margin: 10px 0;
 }
 
-ul li a:hover {
-    color: #ff6347;
-}
-
-/* Sección de estadísticas */
-.stats {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
+/* Estilos para las estadísticas */
 .stats img {
-    width: 300px;
-    height: auto;
+    width: 100%;
+    max-width: 350px;
+    margin: 10px;
+}
+
+/* Estilos para el contacto */
+#contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacto ul li {
+    margin: 5px 0;
 }
