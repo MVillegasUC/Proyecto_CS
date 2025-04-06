@@ -5,24 +5,33 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
-/* Barra de Navegación */
+/* Barra de Navegación Vertical */
 header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;  /* Ancho del menú */
     background-color: #333;
-    padding: 10px 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
-    text-align: center;
-    margin: 0;
     padding: 0;
+    text-align: left;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: block;
+    margin: 20px 0;
 }
 
 nav ul li a {
@@ -30,6 +39,7 @@ nav ul li a {
     font-size: 18px;
     padding: 10px 15px;
     text-decoration: none;
+    display: block;
 }
 
 nav ul li a:hover {
@@ -40,6 +50,7 @@ nav ul li a:hover {
 /* Sección Principal */
 section {
     padding: 50px;
+    margin-right: 220px;  /* Deja espacio para el menú de la derecha */
     text-align: center;
 }
 
@@ -57,6 +68,24 @@ section {
     height: 150px;
     border-radius: 50%;
     margin-top: 20px;
+}
+
+/* Estadísticas de GitHub (gráficos en disposición horizontal) */
+.github-stats {
+    margin-top: 30px;
+}
+
+.github-graphs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para que los gráficos se ajusten en pantallas pequeñas */
+}
+
+.github-graphs img {
+    width: 30%; /* Puedes ajustar el tamaño de los gráficos */
+    min-width: 250px;
 }
 
 /* Buscador */
@@ -124,5 +153,22 @@ section {
 @media (max-width: 768px) {
     .project-card {
         width: 100%;
+    }
+
+    .github-graphs img {
+        width: 90%; /* Gráficos más grandes en pantallas pequeñas */
+        margin-bottom: 20px;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    nav ul li {
+        text-align: center;
+    }
+    section {
+        margin-right: 0;
     }
 }
