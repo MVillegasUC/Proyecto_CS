@@ -42,7 +42,7 @@ body {
 }
 
 #sidebar #menu li {
-    margin: 20px 0; /* Aumentamos el margen entre los elementos del menú */
+    margin: 20px 0;
 }
 
 /* Estilos generales para los enlaces del menú */
@@ -50,30 +50,30 @@ body {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    transition: background-color 0.3s, color 0.3s; /* Añadimos transición suave para el cambio de color */
-    padding: 10px 15px; /* Aumentamos el padding horizontal para mayor separación */
-    border-radius: 4px; /* Añadimos bordes redondeados para un efecto más bonito */
-    display: block; /* Aseguramos que el enlace ocupe todo el espacio disponible */
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: block;
 }
 
 /* Efecto cuando el cursor pasa sobre el enlace */
 #sidebar #menu li a:hover {
-    background-color: #007BFF; /* Cambia el fondo del enlace */
-    color: white; /* Cambia el color del texto */
+    background-color: #007BFF;
+    color: white;
 }
 
 /* Efecto cuando el enlace está seleccionado */
 #sidebar #menu li a:active {
-    background-color: #0056b3; /* Cambia el fondo cuando se hace clic */
-    color: white; /* Mantiene el texto en blanco */
-    font-weight: bold; /* Pone el texto en negrita cuando se selecciona */
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
 }
 
 /* Estilo para el enlace seleccionado */
 #sidebar #menu li a.selected {
-    font-weight: bold; /* Pone el texto en negrita cuando está seleccionado */
-    background-color: #0056b3; /* Cambia el fondo del enlace seleccionado */
-    color: white; /* Asegura que el texto sea blanco cuando está seleccionado */
+    font-weight: bold;
+    background-color: #0056b3;
+    color: white;
 }
 
 /* Contenido principal */
@@ -93,101 +93,28 @@ section {
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 8px;
-    width: 80%; /* Ancho del contenido centrado */
-    max-width: 1000px; /* Limitamos el ancho máximo para mantenerlo ordenado */
+    width: 80%;
+    max-width: 1000px;
 }
 
-/* Estilos para los proyectos */
-#proyectos {
-    margin-bottom: 20px;
-}
-
-#proyectos input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 20px;
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
-    border-radius: 4px;
-}
-
-/* Lista de proyectos centrada */
-#proyectos-lista {
+/* Estilo para la sección de Tecnologías */
+#tecnologias .tech-icons {
     display: flex;
-    justify-content: center; /* Centra los proyectos */
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    list-style-type: none;
-    padding: 0;
-    width: 100%;
 }
 
-#proyectos-lista li {
-    width: 250px;
+#tecnologias h1 {
     text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 28px;
 }
 
-#proyectos-lista li h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-#proyectos-lista li p {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-#proyectos-lista li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    display: block;
-    margin-top: 10px;
-}
-
-#proyectos-lista li a:hover {
-    color: #007BFF;
-}
-
-/* Estilo para el enlace "Ver más" */
-.ver-mas {
-    color: #007BFF;
-    font-size: 14px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.ver-mas:hover {
-    text-decoration: underline;
-}
-
-/* Estilos para las estadísticas */
-.stats {
-    display: flex; /* Usamos flexbox para alinear las imágenes en una fila */
-    gap: 20px; /* Espacio entre las imágenes */
-    flex-wrap: wrap; /* Permite que las imágenes se ajusten si el ancho es muy pequeño */
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    margin-top: 20px;
-}
-
-.stats img {
-    width: 100%; /* Asegura que las imágenes no se desborden */
-    max-width: 350px; /* Establecemos un máximo de ancho para cada imagen */
+#tecnologias img {
+    width: 80px;
+    height: auto;
     margin: 10px;
 }
 
-/* Estilos para el contacto */
-#contacto ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#contacto ul li {
-    margin: 5px 0;
-}
+/* Otros estilos permanecen igual */
