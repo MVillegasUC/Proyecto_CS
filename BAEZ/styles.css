@@ -20,14 +20,14 @@ body {
 
 #profile {
     text-align: center;
-    margin-bottom: 40px; /* Espacio entre la imagen y el menú */
+    margin-bottom: 40px;
 }
 
 #sidebar img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin: 0 auto; /* Centra la imagen */
+    margin: 0 auto;
 }
 
 #sidebar h2 {
@@ -52,19 +52,19 @@ body {
 
 /* Contenido principal */
 main {
-    margin-left: 220px; /* Deja espacio para la barra lateral */
+    margin-left: 220px;
     padding: 20px;
-    width: calc(100% - 220px); /* Asegura que el contenido ocupe el espacio restante */
-    box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+    width: calc(100% - 220px);
+    box-sizing: border-box;
 }
 
 /* Secciones */
 section {
     margin-bottom: 40px;
-    padding: 20px; /* Espacio interno para las secciones */
-    background-color: #f4f4f4; /* Fondo para las secciones */
-    border-radius: 8px; /* Bordes redondeados para un diseño más suave */
-    width: 100%; /* Asegura que las secciones ocupen todo el ancho disponible */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 100%;
 }
 
 section h1 {
@@ -85,39 +85,71 @@ section h1 {
 }
 
 #proyectos-lista {
-    display: flex; /* Usamos flexbox para alinear los elementos en fila */
-    gap: 20px; /* Espacio entre los proyectos */
-    flex-wrap: wrap; /* Permite que los proyectos se ajusten a la siguiente línea si no caben */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
-    width: 100%; /* Asegura que la lista ocupe todo el ancho */
+    width: 100%;
 }
 
 #proyectos-lista li {
-    width: 250px; /* Ancho fijo para cada proyecto */
-    text-align: center; /* Centra el contenido dentro de cada proyecto */
-    background-color: #fff; /* Fondo blanco para los proyectos */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    width: 250px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#proyectos-lista li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#proyectos-lista li p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
 }
 
 #proyectos-lista li a {
     text-decoration: none;
-    color: #333; /* Color de texto */
+    color: #333;
     font-size: 18px;
     display: block;
     margin-top: 10px;
 }
 
 #proyectos-lista li a:hover {
-    color: #007BFF; /* Color de texto al pasar el mouse */
+    color: #007BFF;
+}
+
+/* Estilo para el enlace "Ver más" */
+.ver-mas {
+    color: #007BFF;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.ver-mas:hover {
+    text-decoration: underline;
 }
 
 /* Estilos para las estadísticas */
+.stats {
+    display: flex; /* Usamos flexbox para alinear las imágenes en una fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten si el ancho es muy pequeño */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    margin-top: 20px;
+}
+
 .stats img {
-    width: 100%;
-    max-width: 350px;
+    width: 100%; /* Asegura que las imágenes no se desborden */
+    max-width: 350px; /* Establecemos un máximo de ancho para cada imagen */
     margin: 10px;
 }
 
