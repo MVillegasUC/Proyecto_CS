@@ -48,10 +48,20 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Estilo para las secciones principales */
-section {
-    padding: 50px;
+/* Contenedor de contenido */
+.main-content {
     margin-left: 220px;  /* Dejamos espacio para el menú de la izquierda */
+    padding: 50px;
+    width: 100%;
+}
+
+/* Sección individual */
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;  /* Espacio entre las secciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -72,7 +82,7 @@ section {
     margin-top: 20px;
 }
 
-/* Estadísticas de GitHub (gráficos en disposición horizontal) */
+/* Estadísticas de GitHub */
 .github-stats {
     margin-top: 30px;
 }
@@ -80,13 +90,12 @@ section {
 .github-graphs {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     gap: 20px;
-    flex-wrap: wrap; /* Para que los gráficos se ajusten en pantallas pequeñas */
+    flex-wrap: wrap; /* Los gráficos se ajustan bien en pantallas pequeñas */
 }
 
 .github-graphs img {
-    width: 30%; /* Puedes ajustar el tamaño de los gráficos */
+    width: 30%;  /* Ajusta el tamaño de los gráficos */
     min-width: 250px;
 }
 
@@ -153,24 +162,17 @@ section {
 
 /* Responsividad */
 @media (max-width: 768px) {
-    .project-card {
-        width: 100%;
+    .main-content {
+        margin-left: 0;
+        padding: 20px;  /* Ajustamos el padding en pantallas pequeñas */
     }
 
     .github-graphs img {
-        width: 90%; /* Gráficos más grandes en pantallas pequeñas */
+        width: 100%;  /* Los gráficos ocupan todo el ancho en pantallas pequeñas */
         margin-bottom: 20px;
     }
 
-    header {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    nav ul li {
-        text-align: center;
-    }
     section {
-        margin-left: 0;
+        width: 100%;  /* Las secciones ocupan todo el ancho */
     }
 }
