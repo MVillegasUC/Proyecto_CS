@@ -40,9 +40,9 @@ body {
     padding: 0;
 }
 
-/* Aumentamos el margen entre los elementos del menú */
+/* Aumentamos más el margen entre los elementos del menú */
 #sidebar #menu li {
-    margin: 15px 0; /* Aumentamos el margen entre los elementos */
+    margin: 20px 0; /* Aumentamos el margen entre los elementos aún más */
 }
 
 /* Estilos generales para los enlaces del menú */
@@ -66,6 +66,14 @@ body {
 #sidebar #menu li a:active {
     background-color: #0056b3; /* Cambia el fondo cuando se hace clic */
     color: white; /* Mantiene el texto en blanco */
+    font-weight: bold; /* Pone el texto en negrita cuando se selecciona */
+}
+
+/* Estilo para el enlace seleccionado */
+#sidebar #menu li a.selected {
+    font-weight: bold; /* Pone el texto en negrita cuando está seleccionado */
+    background-color: #0056b3; /* Cambia el fondo del enlace seleccionado */
+    color: white; /* Asegura que el texto sea blanco cuando está seleccionado */
 }
 
 /* Contenido principal */
