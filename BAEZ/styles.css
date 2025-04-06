@@ -8,7 +8,7 @@ body {
     display: flex;
 }
 
-/* Barra de Navegación Lateral (izquierda) */
+/* Barra de Navegación Lateral (Izquierda) */
 header {
     position: fixed;
     top: 0;
@@ -26,11 +26,13 @@ nav ul {
     padding: 0;
     text-align: left;
     margin: 0;
+    width: 100%; /* Aseguramos que ocupe todo el ancho del menú */
 }
 
 nav ul li {
     display: block;
     margin: 20px 0;
+    text-align: center;
 }
 
 nav ul li a {
@@ -46,13 +48,14 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Sección Principal */
+/* Estilo para las secciones principales */
 section {
     padding: 50px;
-    margin-left: 220px;  /* Deja espacio para el menú de la izquierda */
+    margin-left: 220px;  /* Dejamos espacio para el menú de la izquierda */
     text-align: center;
 }
 
+/* Sección de bienvenida */
 #about {
     background-color: #333;
     color: #fff;
