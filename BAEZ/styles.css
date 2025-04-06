@@ -40,8 +40,9 @@ body {
     padding: 0;
 }
 
+/* Aumentamos el margen entre los elementos del menú */
 #sidebar #menu li {
-    margin: 10px 0;
+    margin: 15px 0; /* Aumentamos el margen entre los elementos */
 }
 
 /* Estilos generales para los enlaces del menú */
@@ -50,8 +51,9 @@ body {
     text-decoration: none;
     font-size: 18px;
     transition: background-color 0.3s, color 0.3s; /* Añadimos transición suave para el cambio de color */
-    padding: 10px;
+    padding: 10px 15px; /* Aumentamos el padding horizontal para mayor separación */
     border-radius: 4px; /* Añadimos bordes redondeados para un efecto más bonito */
+    display: block; /* Aseguramos que el enlace ocupe todo el espacio disponible */
 }
 
 /* Efecto cuando el cursor pasa sobre el enlace */
