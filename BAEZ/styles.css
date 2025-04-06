@@ -40,9 +40,8 @@ body {
     padding: 0;
 }
 
-/* Aumentamos más el margen entre los elementos del menú */
 #sidebar #menu li {
-    margin: 20px 0; /* Aumentamos el margen entre los elementos aún más */
+    margin: 20px 0; /* Aumentamos el margen entre los elementos del menú */
 }
 
 /* Estilos generales para los enlaces del menú */
