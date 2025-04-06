@@ -44,10 +44,26 @@ body {
     margin: 10px 0;
 }
 
+/* Estilos generales para los enlaces del menú */
 #sidebar #menu li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    transition: background-color 0.3s, color 0.3s; /* Añadimos transición suave para el cambio de color */
+    padding: 10px;
+    border-radius: 4px; /* Añadimos bordes redondeados para un efecto más bonito */
+}
+
+/* Efecto cuando el cursor pasa sobre el enlace */
+#sidebar #menu li a:hover {
+    background-color: #007BFF; /* Cambia el fondo del enlace */
+    color: white; /* Cambia el color del texto */
+}
+
+/* Efecto cuando el enlace está seleccionado */
+#sidebar #menu li a:active {
+    background-color: #0056b3; /* Cambia el fondo cuando se hace clic */
+    color: white; /* Mantiene el texto en blanco */
 }
 
 /* Contenido principal */
