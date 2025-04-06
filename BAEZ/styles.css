@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     width: 100%;
+    height: 100vh; /* Para asegurar que todo ocupe el alto completo */
 }
 
 /* Barra de navegación */
@@ -14,6 +15,8 @@ body {
     padding: 20px;
     position: fixed;
     height: 100vh;
+    top: 0;
+    left: 0;
 }
 
 #profile {
@@ -50,13 +53,12 @@ body {
 
 /* Contenido principal */
 main {
-    margin-left: 220px; /* Deja un espacio de 220px para la barra lateral */
+    margin-left: 220px; /* Asegura espacio para la barra lateral */
     padding: 20px;
-    width: calc(100% - 220px); /* Asegura que el contenido ocupe el espacio restante */
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    box-sizing: border-box; /* Asegura que el padding se incluya en el cálculo del ancho */
+    width: calc(100% - 220px); /* Asegura que el contenido ocupe todo el ancho disponible */
+    height: 100vh; /* Asegura que el contenido ocupe toda la altura */
+    overflow-y: auto; /* Permite scroll si el contenido es demasiado grande */
+    box-sizing: border-box; /* Incluye padding en el cálculo del tamaño */
 }
 
 /* Secciones */
