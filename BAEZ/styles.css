@@ -6,14 +6,13 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
 }
 
-/* Barra de Navegación Vertical */
+/* Barra de Navegación Lateral (izquierda) */
 header {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     height: 100%;
     width: 200px;  /* Ancho del menú */
     background-color: #333;
@@ -50,7 +49,7 @@ nav ul li a:hover {
 /* Sección Principal */
 section {
     padding: 50px;
-    margin-right: 220px;  /* Deja espacio para el menú de la derecha */
+    margin-left: 220px;  /* Deja espacio para el menú de la izquierda */
     text-align: center;
 }
 
@@ -169,6 +168,6 @@ section {
         text-align: center;
     }
     section {
-        margin-right: 0;
+        margin-left: 0;
     }
 }
