@@ -47,15 +47,22 @@ body {
     font-size: 18px;
 }
 
-/* Contenido principal */
-main {
-    margin-left: 220px;
+/* Contenedor principal que rodea el contenido */
+#contenido-principal {
+    margin-left: 220px; /* Ajusta el margen izquierdo para dar espacio a la barra lateral */
     padding: 20px;
     width: calc(100% - 220px);
 }
 
+main {
+    margin: 0;
+}
+
 section {
     margin-bottom: 40px;
+    padding: 20px; /* Espacio interno */
+    background-color: #f4f4f4; /* Fondo para las secciones */
+    border-radius: 8px; /* Bordes redondeados */
 }
 
 section h1 {
