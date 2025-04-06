@@ -9,7 +9,7 @@ Este es el portafolio personal de **Américo Báez**, un estudiante de Ingenieri
 
 El proyecto consta de los siguientes archivos principales:
 
-- **`index.html`**: La estructura principal de la página con secciones como "Sobre mí", "Proyectos", "Estadísticas de GitHub" y "Contacto".
+- **`index.html`**: La estructura principal de la página con secciones como "Sobre mí", "Proyectos", "Estadísticas de GitHub", "Tecnologias"y "Contacto".
 - **`script.js`**: Añade funcionalidad interactiva, como el buscador de proyectos.
 - **`styles.css`**: Contiene los estilos visuales para darle un diseño atractivo y responsivo.
 
