@@ -67,6 +67,10 @@ section h1 {
 }
 
 /* Estilos para los proyectos */
+#proyectos {
+    margin-bottom: 20px;
+}
+
 #proyectos input {
     width: 100%;
     padding: 10px;
@@ -75,12 +79,32 @@ section h1 {
 }
 
 #proyectos-lista {
+    display: flex; /* Usamos flexbox para alinear los elementos en fila */
+    gap: 20px; /* Espacio entre los proyectos */
+    flex-wrap: wrap; /* Permite que los proyectos se ajusten a la siguiente línea si no caben */
     list-style-type: none;
     padding: 0;
 }
 
 #proyectos-lista li {
-    margin: 10px 0;
+    width: 250px; /* Ancho fijo para cada proyecto */
+    text-align: center; /* Centra el contenido dentro de cada proyecto */
+    background-color: #fff; /* Fondo blanco para los proyectos */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+#proyectos-lista li a {
+    text-decoration: none;
+    color: #333; /* Color de texto */
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+#proyectos-lista li a:hover {
+    color: #007BFF; /* Color de texto al pasar el mouse */
 }
 
 /* Estilos para las estadísticas */
