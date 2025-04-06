@@ -80,35 +80,7 @@ section h1 {
     width: 250px; /* Tamaño de cada proyecto */
 }
 
-/* Estilos para la sección de Tech Stack */
-#tech-stack {
-    margin-bottom: 40px;
-}
-
-#tech-stack h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.tech-icons {
-    display: flex;
-    flex-wrap: wrap; /* Asegura que los íconos se ajusten en varias filas si es necesario */
-    gap: 10px; /* Espaciado entre los íconos */
-    justify-content: center; /* Centra los íconos */
-}
-
-.tech-icons img {
-    max-width: 100px; /* Ajusta el tamaño de los íconos */
-    height: auto;
-}
-
 /* Estilos para las estadísticas */
-.stats {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
 .stats img {
     width: 100%;
     max-width: 350px;
