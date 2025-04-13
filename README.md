@@ -1,18 +1,59 @@
-<h1>CONSTRUCCIÓN DE SOFTWARE - GRUPO I</h1>
-<p>Proyecto integral del curso Construcción de Software - Universidad Continental 2025-1</p>
+# 🚀 **CONSTRUCCIÓN DE SOFTWARE - GRUPO I**
 
-<p>🔗 <a href="https://mvillegasuc.github.io/Proyecto_CS/">Enlace de nuestra página</a></p>
+**Proyecto integral del curso** *Construcción de Software* - **Universidad Continental 2025-1**  
 
-<h2>📚 CURSO: CONSTRUCCIÓN DE SOFTWARE</h2>
-<p><strong>Profesor:</strong> MEHREZ GARCIA Amir Fernando Mamdouh</p>
+---
 
-<h2>👨‍🎓 Estudiantes:</h2>
-<ul>
-  <li><a href="ALDANA/">ALDANA VILCA Luis Felipe</a></li>
-  <li><a href="BAEZ/">BAEZ QUISPE Americo</a></li>
-  <li><a href="QUINTO/">QUINTO TAIPE Berta</a></li>
-  <li><a href="VENCES/">VENCES BOSSIO José Alonso</a></li>
-  <li><a href="VILLEGAS/">VILLEGAS ARCENTALES Merrie Laura</a></li>
-</ul>
+🔗 [Visita nuestra página del proyecto aquí](https://mvillegasuc.github.io/Proyecto_CS/)
 
-![Image](https://github.com/user-attachments/assets/761b31f3-53d2-4a96-9f10-4bec5965fca4)
+---
+
+## 📚 **Curso: Construcción de Software**
+
+**Profesor:**  
+👨‍🏫 **MEHREZ GARCIA Amir Fernando Mamdouh**
+
+---
+
+## 👨‍🎓 **Estudiantes:**
+
+- [ALDANA VILCA Luis Felipe](ALDANA/)
+- [BAEZ QUISPE Americo](BAEZ/)
+- [QUINTO TAIPE Berta](QUINTO/)
+- [VENCES BOSSIO José Alonso](VENCES/)
+- [VILLEGAS ARCENTALES Merrie Laura](VILLEGAS/)
+
+---
+
+![Imagen del Proyecto](https://github.com/user-attachments/assets/761b31f3-53d2-4a96-9f10-4bec5965fca4)
+
+---
+
+### 🔧 **Descripción del Proyecto:**
+
+El **Proyecto Integral** del curso *Construcción de Software* tiene como objetivo desarrollar un software que permita a los usuarios realizar tareas específicas de forma eficiente y accesible. A lo largo de este proyecto, se busca aplicar los conocimientos adquiridos durante el curso en el desarrollo real de una herramienta funcional.
+
+---
+
+### 📈 **Metodología:**
+
+Nuestra metodología se basa en las mejores prácticas de desarrollo ágil, realizando iteraciones periódicas para mejorar el producto y adaptarlo a las necesidades del usuario final.
+
+---
+
+### 🛠 **Tecnologías Utilizadas:**
+
+- **Lenguajes de Programación:** Python, JavaScript
+- **Frameworks:** React, Flask
+- **Base de Datos:** MySQL
+- **Herramientas de Gestión:** Git, GitHub, Jira
+
+---
+
+**¡Gracias por visitar nuestro proyecto!**  
+Si tienes preguntas o comentarios, no dudes en contactarnos a través de la página.
+
+---
+
+🔗 [Regresar al inicio](https://mvillegasuc.github.io/Proyecto_CS/)
+
