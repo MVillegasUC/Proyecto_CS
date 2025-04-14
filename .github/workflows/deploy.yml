@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main 
+      - feature/villegas  # Se agrega para que también funcione en feature/villegas
+  pull_request:
+    branches:
+      - main
+      - feature/villegas  # También en pull requests a la rama feature/villegas      
 
 jobs:
   deploy:
