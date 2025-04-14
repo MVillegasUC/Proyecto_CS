@@ -1,3 +1,0 @@
-¿Dónde se guarda las notas (stikynot)?
-Rpta: \Users\<perfil de usuario>\AppData\Roaming\Microsoft\Sticky Notes\StickyNotes.snt
-Algunas carpetas de la ruta pueden estar ocultas.
