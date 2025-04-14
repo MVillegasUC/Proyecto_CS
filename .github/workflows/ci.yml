@@ -21,22 +21,3 @@ jobs:
         uses: Cyb3r-Jak3/html5validator-action@v1.1.0
         with:
           file: index.html  # Asegúrate de que este archivo exista y esté en la raíz
-
-  # Segundo trabajo: Despliegue con GitHub Pages (si lo deseas)
-  deploy:
-    runs-on: ubuntu-latest
-    needs: validate-html  # Esto asegura que la validación HTML debe pasar antes de desplegar
-    steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js (si es necesario para tu app)
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'  # O la versión que necesites
-
-      - name: Desplegar en GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./release/v1.0.0  # Aquí va la carpeta que quieres desplegar
