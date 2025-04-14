@@ -17,11 +17,11 @@
 
 ## 👨‍🎓 **Estudiantes:**
 
-- [ALDANA VILCA Luis Felipe](https://mvillegasuc.github.io/Proyecto_CS/ALDANA/)
-- [BAEZ QUISPE Americo](https://mvillegasuc.github.io/Proyecto_CS/BAEZ/)
-- [QUINTO TAIPE Berta](https://mvillegasuc.github.io/Proyecto_CS/QUINTO/)
-- [VENCES BOSSIO José Alonso](https://mvillegasuc.github.io/Proyecto_CS/VENCES/)
-- [VILLEGAS ARCENTALES Merrie Laura](https://mvillegasuc.github.io/Proyecto_CS/VILLEGAS/)
+- [ALDANA VILCA Luis Felipe](develop/ALDANA/)
+- [BAEZ QUISPE Americo](develop/BAEZ/)
+- [QUINTO TAIPE Berta](develop/QUINTO/)
+- [VENCES BOSSIO José Alonso](develop/VENCES/)
+- [VILLEGAS ARCENTALES Merrie Laura](develop/VILLEGAS/)
 
 ---
 
