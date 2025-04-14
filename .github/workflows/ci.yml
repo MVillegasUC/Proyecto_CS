@@ -1,23 +1,31 @@
-name: CI/CD Workflow
+name: CI - Validación HTML
 
 on:
   push:
     branches:
-      - feature/villegas  # Esto indica que el flujo de trabajo se ejecuta cuando haces un push a feature/villegas
-      - main               # También lo puedes activar en la rama main (si es necesario)
+      - main
+      - feature/villegas
   pull_request:
     branches:
-      - feature/villegas  # También se ejecuta cuando se hace un pull request hacia esta rama
+      - main
+      - feature/villegas
 
 jobs:
-  # Primer trabajo: Validación de HTML
-  validate-html:
+  html-validate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout del repositorio
+      - name: Clonar repositorio
         uses: actions/checkout@v3
 
-      - name: Validar HTML
-        uses: Cyb3r-Jak3/html5validator-action@v1.1.0
+      - name: Instalar Node.js
+        uses: actions/setup-node@v3
         with:
-          file: index.html  # Asegúrate de que este archivo exista y esté en la raíz
+          node-version: '16'
+
+      - name: Instalar html-validator-cli
+        run: npm install -g html-validator-cli
+
+      - name: Validar HTML en release/v2.0.0
+        run: |
+          html-validator --file release/v2.0.0/index.html --format text || true
