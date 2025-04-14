@@ -1,6 +1,0 @@
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR
-
-Nos desplazamos hasta el panel derecho, seleccionamos 
-“Start” y cambiamos el valor a 3. Tengamos en cuenta 
-que 4 es el valor que inhabilitará los puertos.

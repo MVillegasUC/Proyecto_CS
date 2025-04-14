@@ -1,0 +1,6 @@
+Impresora Local conectada a este equipo
+Al no encontrar impresora, seleccionar "Crear nuevo puerto"
+Tipo de Puerto: Standard TCP/IP Port
+Ingresar IP de la impresora
+Instalar drivers
+Imprimir página de prueba
