@@ -1,0 +1,33 @@
+name: CI General
+
+on:
+  push:
+    branches: [main, develop, feature/*]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  markdown-check:
+    name: Verificar Markdown y enlaces
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar markdownlint y link-checker
+        run: |
+          npm install -g markdownlint-cli
+          npm install -g markdown-link-check
+
+      - name: Lint de archivos Markdown
+        run: markdownlint "**/*.md"
+
+      - name: 🔗 Verificar enlaces en Markdown
+        run: |
+          find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check -q -c ".mlc_config.json" || true
