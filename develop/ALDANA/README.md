@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+# Página Personal de Luis Felipe Aldana Vilca
+
+Este es el repositorio de mi página personal, en la que presento mi experiencia y trayectoria profesional.
+
+## Descripción
+
+Soy **Luis Felipe Aldana Vilca**, cofundador y director de **Transformación Digital y Proyectos Tecnológicos**. Tengo experiencia en **ciberseguridad**, **gestión de proyectos** y **desarrollo de sistemas**. He trabajado con metodologías ágiles como **SCRUM**, **Design Thinking** y **Data Analytics** para crear soluciones innovadoras que generen valor en las organizaciones.
+
+Creo que los sueños se pueden hacer realidad con pasión, trabajo en equipo y aprendizaje constante. Mi enfoque está en **aplicar mis conocimientos y habilidades técnicas** para transformar organizaciones y generar un impacto real.
+
+## Cómo ver la página
+
+1. Visita mi emprendimiento:
+   ```bash
+   https://inco.pe/
+=======
 <h1 align="center" style="color:#fff; background:#000;">🖥️ Luis Felipe Aldana Vilca</h1>
 
 <p align="center">
@@ -43,4 +60,5 @@
   <img src="https://img.shields.io/badge/HTML-Creativo-yellow?style=for-the-badge&logo=html5&logoColor=black" />
 </p>
 
+>>>>>>> b458a29483b46b4d6462031f08dde4ecda4e7a10
 

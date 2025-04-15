@@ -17,11 +17,11 @@
 
 ## 👨‍🎓 **Estudiantes:**
 
-- [ALDANA VILCA Luis Felipe](ALDANA/)
-- [BAEZ QUISPE Americo](BAEZ/)
-- [QUINTO TAIPE Berta](QUINTO/)
-- [VENCES BOSSIO José Alonso](VENCES/)
-- [VILLEGAS ARCENTALES Merrie Laura](VILLEGAS/)
+- [ALDANA VILCA Luis Felipe](develop/ALDANA/)
+- [BAEZ QUISPE Americo](develop/BAEZ/)
+- [QUINTO TAIPE Berta](develop/QUINTO/)
+- [VENCES BOSSIO José Alonso](develop/VENCES/)
+- [VILLEGAS ARCENTALES Merrie Laura](develop/VILLEGAS/)
 
 ---
 

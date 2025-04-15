@@ -1,0 +1,2 @@
+---->	BUSCAR NOMBRE DE USUARIO EN BD
+select * from DBA_USERS DU
