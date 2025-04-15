@@ -28,6 +28,3 @@ jobs:
       - name: Lint de archivos Markdown
         run: markdownlint "**/*.md"
 
-      - name: Verificar enlaces en Markdown
-        run: |
-          find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check -q -c ".mlc_config.json" || true
