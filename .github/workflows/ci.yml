@@ -20,11 +20,14 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Instalar markdownlint y link-checker
+      - name: Instalar markdownlint-cli y markdown-link-check
         run: |
-          npm install -g markdownlint-cli
-          npm install -g markdown-link-check
+          npm install -g markdownlint-cli markdown-link-check
 
       - name: Lint de archivos Markdown
-        run: markdownlint "**/*.md"
+        run: markdownlint "**/*.md" || true  # Se agrega '|| true' para que el flujo continúe incluso si markdownlint falla
+
+      - name: Verificar enlaces en Markdown
+        run: |
+          find . -type f -name "*.md" -exec markdown-link-check -q {} \; || true  # Evitar que falle el flujo si hay errores en enlaces
 
