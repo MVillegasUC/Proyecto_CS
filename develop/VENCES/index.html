@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cambios de Forma Pokémon</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .content-section {
+      display: none;
+      margin-top: 1rem;
+    }
+    .content-section.active {
+      display: block;
+    }
+    .category-buttons {
+      margin-bottom: 1rem;
+    }
+    .category-buttons button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      display: inline-block;
+    }
+    #searchInput {
+      padding: 10px;
+      font-size: 1rem;
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌐 Cambios de Forma Pokémon</h1>
+    <p>Exploración de los cambios de forma.</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>🚀 Resumen</h2>
+      ---------------------------------------------------------------------------------------------------------
+      <p>En este sitio encontrarás una recopilación completa de los cambios de forma en Pokémon, organizados por región y tipo. Desde las primeras formas regionales introducidas en Alola, hasta las nuevas variantes Paradoja de Pasado y Futuro en Paldea, pasando por formas únicas como las Convergentes y las exclusivas de Hisui y Galar.
+        Cada sección te llevará a una categoría específica, explicando los Pokémon que cambian su tipo, forma, habilidad o incluso su historia en el lore. También incluimos una sección de Referencias con las fuentes consultadas para asegurar la precisión del contenido.
+    </section>
+
+    <section class="features">
+      <h2>✨ Categorías</h2>
+      ---------------------------------------------------------------------------------------------------------
+
+      <input type="text" id="searchInput" placeholder="Buscar región..." oninput="filterCategories()" />
+
+      <div class="category-buttons">
+        <button data-name="alola" onclick="showSection('alola')">☀️ Región Alola</button>
+        <button data-name="galar" onclick="showSection('galar')">🏰 Región Galar</button>
+        <button data-name="hisui" onclick="showSection('hisui')">🏛️ Región Hisui</button>
+        <button data-name="paldea" onclick="showSection('paldea')">🔥 Región Paldea</button>
+        <button data-name="convergentes" onclick="showSection('convergentes')">🔄 Formas Convergentes</button>
+        <button data-name="pasado" onclick="showSection('pasado')">⏳ Paradox Pasado</button>
+        <button data-name="futuro" onclick="showSection('futuro')">⏳ Paradox Futuro</button>
+        <button data-name="futuro" onclick="showSection('referencias')">🤝 Referencias</button>
+      </div>
+
+      <!-- Contenido dinámico por región -->
+      <div id="alola" class="content-section">
+        <h3>☀️ Formas Alola</h3>
+        <p>Las Formas de Alola son variantes de Pokémon que han evolucionado en la región tropical de Alola, adaptándose a su clima cálido y su ecosistema insular. Estas formas introdujeron cambios en tipos, habilidades y apariencia en comparación con sus contrapartes de otras regiones. Se caracterizan por sus adaptaciones a climas cálidos y entornos volcánicos, con nuevas combinaciones de tipos, habilidades ajustadas a su entorno y diseños inspirados en la mitología hawaiana.
+
+## 🏝️ Ejemplos de Formas de Alola  
+
+### 🦊 **Vulpix y Ninetales de Alola**  
+
+![Image](https://github.com/user-attachments/assets/f6ef3d9b-1402-4bf9-a4f3-deaa587ed922)
+          
+- **Tipo:** Hielo (Vulpix) / Hielo / Hada (Ninetales)  
+- **Diferencia:** Adaptados a las montañas nevadas, cambiaron su tipo de Fuego a Hielo.  
+- **Habilidad especial:** Manto Níveo (aumenta evasión en tormentas de nieve). 
+
+### 🦎 **Exeggutor de Alola**  
+
+![Image](https://github.com/user-attachments/assets/31c3fb04-45cf-40a1-91f6-725a8a95d35b)
+
+- **Tipo:** Planta / Dragón  
+- **Diferencia:** Su cuello se alargó drásticamente y es su forma real según los habitantes de Alola.  
+- **Habilidad especial:** Cosecha (posibilidad de reutilizar Baya consumida).
+
+### 🦔❄️ Sandshrew y Sandslash de Alola  
+
+![Image](https://github.com/user-attachments/assets/7580a2ba-0195-4555-94fc-edc3e4d16321)
+
+- **Tipo:** Hielo / Acero  
+- **Diferencia:** Su caparazón se endureció y se adaptaron a climas fríos.  
+- **Habilidad especial:** Manto Níveo o Ímpetu Nevado (aumenta velocidad en tormentas de nieve).
+
+### 🦨🐀 Rattata y Raticate de Alola 
+
+![Image](https://github.com/user-attachments/assets/7c2d97ff-cffb-4334-8d07-095cda57de01)
+
+- **Tipo:** Siniestro / Normal  
+- **Diferencia:** Se volvieron nocturnos y viven en ciudades, cazando en grupos organizados.  
+- **Habilidad especial:** Gula o Entusiasmo (aumenta ataque pero baja precisión).
+
+### 🛢️💀 Grimer y Muk de Alola  
+
+![Image](https://github.com/user-attachments/assets/027fa080-963f-4d9e-b536-1921848a8f97)
+
+- **Tipo:** Veneno / Siniestro  
+- **Diferencia:** Se alimentan de basura, lo que les dio su color verdoso y un brillo tóxico.  
+- **Habilidad especial:** Toque Tóxico o Hedor (pueden envenenar al contacto o repeler Pokémon).
+
+### 😼💎 Meowth y Persian de Alola 
+
+![Image](https://github.com/user-attachments/assets/57a4d055-27c3-44d4-a6b0-7b8044069b5a)
+
+- **Tipo:** Siniestro  
+- **Diferencia:** Fueron criados por la realeza de Alola, lo que les dio un aire arrogante.  
+- **Habilidad especial:** Recogida o Experto (potencia ataques débiles).
+
+### 🪨⚡ Geodude, Graveler y Golem de Alola
+
+![Image](https://github.com/user-attachments/assets/f5f82615-af10-458c-b7a4-755c5fae189f)
+
+- **Tipo:** Roca / Eléctrico  
+- **Diferencia:** Desarrollaron partículas magnéticas que atraen metales y permiten lanzar rocas eléctricas.  
+- **Habilidad especial:** Cabeza Roca o Imán (potencia ataques eléctricos).
+
+### 🏜️⚙️ Diglett y Dugtrio de Alola  
+
+![Image](https://github.com/user-attachments/assets/293c7c81-0546-4849-b716-9f3cbfbc7258)
+
+- **Tipo:** Tierra / Acero  
+- **Diferencia:** Sus cabellos metálicos les permiten detectar vibraciones y se consideran sagrados en Alola.  
+- **Habilidad especial:** Velo Arena o Pelaje Recio (reduce daño de ataques físicos).
+
+### 💀🔥 Marowak de Alola  
+
+![Image](https://github.com/user-attachments/assets/9a7a27e8-2602-485e-ab34-7a161c313af3)
+
+- **Tipo:** Fuego / Fantasma  
+- **Diferencia:** Tras la muerte de su madre, Marowak de Alola adoptó una nueva forma con huesos ardiendo, lo que le da una apariencia fantasmal.  
+- **Habilidad especial:** Espejo Mágico o Cuerpo Llama (daño por contacto al atacante). 
+
+### ⚡ **Raichu de Alola**  
+
+![Image](https://github.com/user-attachments/assets/bcf38998-b41a-4905-90c3-9faf369c5129)
+
+- **Tipo:** Eléctrico / Psíquico  
+- **Habilidad:** Cola Surf  
+- **Diferencia:** Desarrolló habilidades psíquicas y surfea en su cola electrificada.  
+
+## 🌊 Impacto de las Formas de Alola  
+Las Formas Regionales de Alola fueron la primera gran variación en la apariencia y tipo de los Pokémon en la saga principal, influenciando regiones posteriores como Galar, Hisui y Paldea.
+
+🔙 [Volver al inicio](https://mvillegasuc.github.io/Proyecto_CS/develop/VENCES/)  
+
+---</p>
+      </div>
+      <div id="galar" class="content-section">
+        <h3>🏰 Formas Galar</h3>
+        <p>Contenido de la región Galar...</p>
+      </div>
+      <div id="hisui" class="content-section">
+        <h3>🏛️ Formas Hisui</h3>
+        <p>Contenido de la región Hisui...</p>
+      </div>
+      <div id="paldea" class="content-section">
+        <h3>🔥 Formas Paldea</h3>
+        <p>Contenido de Paldea...</p>
+      </div>
+      <div id="convergentes" class="content-section">
+        <h3>🔄 Formas Convergentes</h3>
+        <p>Contenido sobre Pokémon convergentes...</p>
+      </div>
+      <div id="pasado" class="content-section">
+        <h3>⏳ Paradox Pasado</h3>
+        <p>Pokémon del pasado...</p>
+      </div>
+      <div id="futuro" class="content-section">
+        <h3>⏳ Paradox Futuro</h3>
+        <p>Pokémon futuristas...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho por ♦AlonsoVB♦</p>
+  </footer>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('.content-section');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+
+    function filterCategories() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const buttons = document.querySelectorAll('.category-buttons button');
+
+      buttons.forEach(button => {
+        const name = button.textContent.toLowerCase();
+        button.style.display = name.includes(input) ? 'inline-block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
+
