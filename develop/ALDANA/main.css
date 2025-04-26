@@ -158,11 +158,13 @@ body {
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s;
+    text-align: center;
 }
 
 .socials a:hover {
     color: #fff;
     text-decoration: underline;
+    text-align: center;
 }
 
 
