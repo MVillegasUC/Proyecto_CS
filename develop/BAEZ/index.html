@@ -32,25 +32,40 @@
 
         <section id="proyectos">
             <h1>Mis Proyectos</h1>
-            <input type="text" id="search" placeholder="Buscar proyectos...">
+            
+            <!-- Campo de búsqueda -->
+            <input type="text" id="search" placeholder="Buscar proyectos..." aria-label="Buscar proyectos">
+            
+            <!-- Lista de proyectos -->
             <ul id="proyectos-lista">
-                <li>
-                    <img src="imagen1.jpg" alt="Proyecto 1">
-                    <h3><a href="#">Proyecto 1</a></h3>
-                    <p>Este proyecto se desarrollará más adelante sobre desarrollo web.</p>
-                    <a href="#" class="ver-mas">Ver más</a>
+                <!-- Proyecto 1 -->
+                <li class="proyecto-item">
+                    <img src="imagen1.jpg" alt="Captura del Proyecto 1" loading="lazy">
+                    <div class="proyecto-contenido">
+                        <h3><a href="#">Proyecto 1</a></h3>
+                        <p>Este proyecto se desarrollará más adelante sobre desarrollo web.</p>
+                        <a href="#" class="ver-mas">Ver más detalles</a>
+                    </div>
                 </li>
-                <li>
-                    <img src="imagen2.jpg" alt="Proyecto 2">
-                    <h3><a href="#">Proyecto 2</a></h3>
-                    <p>Enfocado en automatización de tareas.</p>
-                    <a href="#" class="ver-mas">Ver más</a>
+                
+                <!-- Proyecto 2 -->
+                <li class="proyecto-item">
+                    <img src="imagen2.jpg" alt="Captura del Proyecto 2" loading="lazy">
+                    <div class="proyecto-contenido">
+                        <h3><a href="#">Proyecto 2</a></h3>
+                        <p>Enfocado en automatización de tareas.</p>
+                        <a href="#" class="ver-mas">Ver más detalles</a>
+                    </div>
                 </li>
-                <li>
-                    <img src="imagen3.jpg" alt="Proyecto 3">
-                    <h3><a href="#">Proyecto 3</a></h3>
-                    <p>Utilización de inteligencia artificial.</p>
-                    <a href="#" class="ver-mas">Ver más</a>
+                
+                <!-- Proyecto 3 -->
+                <li class="proyecto-item">
+                    <img src="imagen3.jpg" alt="Captura del Proyecto 3" loading="lazy">
+                    <div class="proyecto-contenido">
+                        <h3><a href="#">Proyecto 3</a></h3>
+                        <p>Utilización de inteligencia artificial.</p>
+                        <a href="#" class="ver-mas">Ver más detalles</a>
+                    </div>
                 </li>
             </ul>
         </section>
