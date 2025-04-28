@@ -242,6 +242,13 @@
       <p>Esta sección busca reflejar mis habilidades técnicas y capacidad para documentar soluciones prácticas que he utilizado a lo largo de mi vida profesional.</p>
 
 
+      <div class="subtabs">
+        <button class="subtab" onclick="mostrarSub('soporte')">Soporte Técnico</button>
+        <button class="subtab" onclick="mostrarSub('oracle')">Oracle 19c</button>
+        <button class="subtab" onclick="mostrarSub('UniContinental')">Construcción de Software</button>
+      </div>
+
+
       <!--PA3 BUSCADOR-->
       <!-- Barra de Búsqueda mejorada -->
       <div class="input-group mb-4 buscador-personalizado">
@@ -251,12 +258,11 @@
         <input type="text" id="inputBusqueda" class="form-control border-0 shadow-none" placeholder="Buscar archivos..." style="background-color: #ffe4e9;">
       </div>
 
-
-      <div class="subtabs">
-        <button class="subtab" onclick="mostrarSub('soporte')">Soporte Técnico</button>
-        <button class="subtab" onclick="mostrarSub('oracle')">Oracle 19c</button>
-        <button class="subtab" onclick="mostrarSub('UniContinental')">Construcción de Software</button>
-      </div>
+      <!-- Resultado de búsqueda -->
+      <div id="resultadosBusqueda"></div>
+      <!--FINAL PA3 BUSCADOR-->
+      
+      
 
       <div id="soporte" class="contenido-sub">
         <h2>Soporte Técnico</h2>    
@@ -372,6 +378,42 @@
   }
 </script>
 
+
+<!--PA3 BUSCADOR _REALIZAR BUSQUEDA-->
+<script>
+  const inputBusqueda = document.getElementById('inputBusqueda');
+  const resultadosBusqueda = document.getElementById('resultadosBusqueda');
+
+  inputBusqueda.addEventListener('keyup', function() {
+    const filtro = inputBusqueda.value.toLowerCase();
+    const listas = document.querySelectorAll('#portafolio ul li');
+    resultadosBusqueda.innerHTML = '';
+
+    if (filtro.trim() === '') {
+      resultadosBusqueda.style.display = 'none'; // No mostrar resultados vacíos
+      return;
+    }
+
+    let encontrados = 0;
+
+    listas.forEach(function(li) {
+      const texto = li.textContent.toLowerCase();
+      if (texto.includes(filtro)) {
+        const nuevoLi = document.createElement('li');
+        const nuevoA = document.createElement('a');
+        nuevoA.href = li.querySelector('a').href;
+        nuevoA.target = '_blank';
+        nuevoA.textContent = li.textContent;
+        nuevoLi.appendChild(nuevoA);
+        resultadosBusqueda.appendChild(nuevoLi);
+        encontrados++;
+      }
+    });
+
+    resultadosBusqueda.style.display = encontrados > 0 ? 'block' : 'none';
+  });
+</script>
+<!--FINAL PA3 BUSCADOR _REALIZAR BUSQUEDA-->
 
 
   <footer class="text-center py-3" style="background-color: #f8c8dc; color: #4a4a4a; font-weight: bold;">
