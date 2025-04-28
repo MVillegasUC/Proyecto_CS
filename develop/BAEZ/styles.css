@@ -164,4 +164,12 @@ section {
     border-color: #007BFF; /* Color de borde cuando el campo está enfocado */
 }
 
+/* Ajuste para las imágenes de los proyectos sin recorte */
+#proyectos-lista li img {
+    width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+    height: auto; /* La altura se ajusta proporcionalmente */
+    object-fit: contain; /* Mantiene la imagen entera sin recortar */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
