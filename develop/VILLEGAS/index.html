@@ -217,7 +217,6 @@
         <button class="subtab" onclick="mostrarSub('soporte')">Soporte Técnico</button>
         <button class="subtab" onclick="mostrarSub('oracle')">Oracle 19c</button>
         <button class="subtab" onclick="mostrarSub('UniContinental')">Construcción de Software</button>
-        <button class="subtab" onclick="mostrarSub('buscador')">Buscador de Archivos</button>
       </div>
 
       <div id="soporte" class="contenido-sub">
@@ -272,49 +271,6 @@
       </div>
     </div>
 
-<!--PA3 BUSCADOR-->
-<div id="buscador" class="contenido-sub">
-  <h3>🔎 Buscador de Archivos</h3>
-
-  <!-- Caja de Búsqueda visible -->
-  <div class="input-group mb-4">
-    <span class="input-group-text bg-pink border-0" style="background-color: #f9a8d4;">
-      <i class="fas fa-search"></i>
-    </span>
-    <input type="text" id="inputBusqueda" class="form-control border-0 shadow-sm" placeholder="Escribe para buscar archivos...">
-  </div>
-
-  <!-- Listado de archivos -->
-  <ul class="list-group" id="listaArchivos">
-    <li class="list-group-item archivo-item">
-      <a href="docs/soporte/IMPRESORA_Instalar.txt" target="_blank"><i class="fas fa-file-alt me-2"></i>IMPRESORA: Instalar dispositivo</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/soporte/INTERNET_Ver_archivo_host.txt" target="_blank"><i class="fas fa-file-alt me-2"></i>Internet: Ver archivo host</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/soporte/StickyNotes_Notas_rapidas.txt" target="_blank"><i class="fas fa-file-alt me-2"></i>StickyNotes: Ver ubicación</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/soporte/USB_Inhabilitar.txt" target="_blank"><i class="fas fa-file-alt me-2"></i>USB: Inhabilitar puerto</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/oracle/BLOQUEAR_USUARIO.sql" target="_blank"><i class="fas fa-file-alt me-2"></i>Oracle: Bloquear usuario</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/oracle/VER_FECHA_HORA_BD.sql" target="_blank"><i class="fas fa-file-alt me-2"></i>Oracle: Ver fecha y hora BD</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/oracle/VER_TAMAÑO_DE_ESQUEMA.sql" target="_blank"><i class="fas fa-file-alt me-2"></i>Oracle: Ver tamaño de esquema</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/oracle/VER_USUARIO.sql" target="_blank"><i class="fas fa-file-alt me-2"></i>Oracle: Ver usuario</a>
-    </li>
-    <li class="list-group-item archivo-item">
-      <a href="docs/oracle/VER_VERSION_BD.sql" target="_blank"><i class="fas fa-file-alt me-2"></i>Oracle: Ver versión de BD</a>
-    </li>
-  </ul>
-</div>
 
 
    
@@ -377,23 +333,6 @@
     document.getElementById(id).classList.add('activo');
   }
 
-  // Buscador Dinámico
-  const inputBusqueda = document.getElementById('inputBusqueda');
-  const listaArchivos = document.getElementById('listaArchivos');
-  const items = listaArchivos.querySelectorAll('.archivo-item');
-
-  inputBusqueda.addEventListener('input', function () {
-    const filtro = inputBusqueda.value.toLowerCase();
-    items.forEach(item => {
-      const texto = item.textContent.toLowerCase();
-      if (texto.includes(filtro)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-  });
-</script>
 
 
 
